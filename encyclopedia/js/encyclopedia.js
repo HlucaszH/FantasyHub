@@ -111,7 +111,7 @@ function render() {
     <div class="entry-card" onclick="openDetail(${e.id})">
       <h4>${e.name}</h4>
       <div class="entry-tags">
-        <span class="tag gold">${e.universe}</span>
+        <span class="tag gold">${e.universe}</span>${e.plec && e.plec !== "brak" ? `<span class="tag">${e.plec}</span>` : ""}
         ${(e.tags||[]).map(t => `<span class="tag">${t}</span>`).join('')}
       </div>
       <p>${e.desc}</p>
@@ -136,7 +136,7 @@ function openDetail(id) {
     overlay.innerHTML = `
       <div class="detail-modal" id="detail-modal">
         <h2 id="d-name"></h2>
-        <div class="detail-universe" id="d-universe"></div>
+        <div class="detail-universe" id="d-universe"></div><div id="d-orig" style="font-size:0.78rem;color:var(--ink-faded);font-style:italic;margin-bottom:0.5rem"></div>
         <div class="detail-tags" id="d-tags"></div>
         <div class="detail-divider"></div>
         <div class="detail-desc" id="d-desc"></div>
@@ -150,6 +150,7 @@ function openDetail(id) {
 
   document.getElementById('d-name').textContent = e.name;
   document.getElementById('d-universe').textContent = '🌍 ' + e.universe;
+  const origEl = document.getElementById('d-orig'); if(origEl) origEl.textContent = e.name_orig && e.name_orig !== e.name ? '✦ oryginalna nazwa: ' + e.name_orig : '';
   document.getElementById('d-tags').innerHTML = (e.tags||[]).map(t => `<span class="tag">${t}</span>`).join('');
   document.getElementById('d-desc').textContent = e.desc;
   document.getElementById('d-appearances').innerHTML = e.appearances

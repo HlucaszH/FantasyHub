@@ -1,8 +1,3460 @@
 [
-  { "id": 1, "name": "Zeus", "universe": "Mitologia Grecka", "tags": ["pioruny", "niebo", "król bogów"], "desc": "Władca bogów olimpijskich, bóg nieba i piorunów. Syn Kronosa i Rei.", "appearances": "Iliada, Odyseja, God of War, Hades (gra)" },
-  { "id": 2, "name": "Odyn", "universe": "Mitologia Nordycka", "tags": ["mądrość", "magia", "śmierć", "Allfather"], "desc": "Allfather, król Asów. Poświęcił oko dla mądrości, wisiał na Yggdrasil 9 dni dla run.", "appearances": "Edda Poetycka, Marvel, God of War: Ragnarök" },
-  { "id": 3, "name": "Ao", "universe": "D&D (Forgotten Realms)", "tags": ["overgod", "neutralny", "Faerun"], "desc": "Overdeity Faerunu — jedyne bóstwo stojące ponad wszystkimi innymi bogami. Rzadko ingeruje w sprawy śmiertelników.", "appearances": "D&D Forgotten Realms, Baldur's Gate" },
-  { "id": 4, "name": "Mystra", "universe": "D&D (Forgotten Realms)", "tags": ["magia", "Weave", "bogini"], "desc": "Bogini magii w Faerunie. Utrzymuje Tkanie (Weave) — sieć przez którą przepływa cała magia. Wielokrotnie umierała i odradzała się.", "appearances": "D&D Forgotten Realms, Baldur's Gate 3" },
-  { "id": 5, "name": "Thor", "universe": "Mitologia Nordycka / Marvel", "tags": ["pioruny", "siła", "Mjolnir"], "desc": "Syn Odyna, bóg piorunów i siły. Dzierży Mjolnir. W Marvelu — superbohater i członek Avengers.", "appearances": "Edda Poetycka, Thor (Marvel), God of War: Ragnarök" },
-  { "id": 6, "name": "Lolth", "universe": "D&D (Forgotten Realms)", "tags": ["pająki", "drow", "chaos", "zło"], "desc": "Pajęcza Królowa, bogini Drow. Rządzi Demonweb Pits. Kapłanki Lolth to jedne z najpotężniejszych antagonistów w Faerunie.", "appearances": "D&D, Baldur's Gate 3" }
+  {
+    "id": 1,
+    "name": "Afrodyta",
+    "name_orig": "Aphrodite",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "miłość",
+      "piękno",
+      "płodność"
+    ],
+    "desc": "Bogini miłości, piękna i pożądania. Urodzona z morskiej piany. Żona Hefajstosa, kochanka Aresa. Jej syn Eros rozsiewa strzały miłości.",
+    "appearances": "Iliada — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 2,
+    "name": "Apollo",
+    "name_orig": "Apollo",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "słońce",
+      "muzyka",
+      "proroctwa",
+      "łucznictwo"
+    ],
+    "desc": "Bóg słońca, muzyki, sztuk, proroctw i leczenia. Bliźniak Artemidy. Wyrocznia w Delfach służyła mu jako głos. Patron Muz.",
+    "appearances": "Iliada — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 3,
+    "name": "Ares",
+    "name_orig": "Ares",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "wojna",
+      "przemoc",
+      "odwaga"
+    ],
+    "desc": "Bóg wojny i przemocy — nie strategii, lecz brutalnej walki. Syn Zeusa i Hery. Kochanek Afrodyty. Nielubiany przez bogów za swą żądzę krwi.",
+    "appearances": "Iliada — Homer; God of War I (antagonista); Hades (gra)"
+  },
+  {
+    "id": 4,
+    "name": "Artemida",
+    "name_orig": "Artemis",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "łowiectwo",
+      "księżyc",
+      "dziewictwo",
+      "dzikie zwierzęta"
+    ],
+    "desc": "Bogini łowiectwa, dzikiej przyrody i księżyca. Bliźniaczka Apolla. Dziewicza bogini — nikt nie śmiał jej dotknąć. Opiekunka młodych kobiet.",
+    "appearances": "Iliada — Homer; Hades (gra)"
+  },
+  {
+    "id": 5,
+    "name": "Atena",
+    "name_orig": "Athena",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "mądrość",
+      "strategia",
+      "rzemiosło",
+      "miasto"
+    ],
+    "desc": "Bogini mądrości, strategii wojennej i rzemiosła. Narodziła się w pełni zbrojna z głowy Zeusa. Patronka Aten. Symbol: sowa i tarcza egida.",
+    "appearances": "Odyseja — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 6,
+    "name": "Demeter",
+    "name_orig": "Demeter",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "zbiory",
+      "ziemia",
+      "urodzaj",
+      "żałoba"
+    ],
+    "desc": "Bogini zbiorów i urodzaju. Gdy jej córka Persefona została porwana przez Hadesa, Demeter pogrążyła świat w zimie z rozpaczy — aż Zeus wynegocjował powrót córki.",
+    "appearances": "Hymny Homeryckie; Hades (gra)"
+  },
+  {
+    "id": 7,
+    "name": "Dionizos",
+    "name_orig": "Dionysus",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "wino",
+      "ekstaza",
+      "teatr",
+      "szaleństwo"
+    ],
+    "desc": "Bóg wina, ekstazy i teatru. Jedyny olimpijczyk urodzony ze śmiertelnej matki (Semele). Jego wyznawcy — menady — popadali w rytualne szaleństwo.",
+    "appearances": "Hades (gra); Bacchae — Eurypides"
+  },
+  {
+    "id": 8,
+    "name": "Hades",
+    "name_orig": "Hades",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "podziemie",
+      "śmierć",
+      "bogactwa",
+      "niewidoczność"
+    ],
+    "desc": "Władca Krainy Umarłych. Brat Zeusa i Posejdona — wylosował Podziemie po pokonaniu Tytanów. Mąż Persefony. Wbrew powszechnemu błędowi — nie jest bogiem śmierci, lecz władcą królestwa umarłych.",
+    "appearances": "Hades (gra Supergiant); God of War; Disney Herkules"
+  },
+  {
+    "id": 9,
+    "name": "Hefajstos",
+    "name_orig": "Hephaestus",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "kowalstwo",
+      "ogień",
+      "rzemiosło",
+      "sztuka"
+    ],
+    "desc": "Bóg ognia i kowalstwa — jedyny szpetny bóg Olimpu. Wykuł zbroję Achillesa, kajdany dla Prometeusza i automaty ze złota. Mąż Afrodyty.",
+    "appearances": "Iliada — Homer; Hades (gra)"
+  },
+  {
+    "id": 10,
+    "name": "Hera",
+    "name_orig": "Hera",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "małżeństwo",
+      "zazdrość",
+      "kobiety",
+      "Olimp"
+    ],
+    "desc": "Królowa bogów, żona Zeusa. Bogini małżeństwa i rodziny. Słynęła z mściwości wobec kochanek Zeusa i ich dzieci — m.in. prześladowała Heraklesa.",
+    "appearances": "Iliada — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 11,
+    "name": "Hermes",
+    "name_orig": "Hermes",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "posłaniec",
+      "złodzieje",
+      "handel",
+      "podróż"
+    ],
+    "desc": "Posłaniec bogów, patron złodziei, kupców i podróżników. Jedyny bóg mogący swobodnie przechodzić między wszystkimi sferami świata. Skrzydlate sandały i kaduceusz.",
+    "appearances": "Iliada — Homer; Hades (gra)"
+  },
+  {
+    "id": 12,
+    "name": "Hestia",
+    "name_orig": "Hestia",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "ognisko domowe",
+      "rodzina",
+      "spokój"
+    ],
+    "desc": "Bogini ogniska domowego i rodziny. Najskromniejsza z olimpijczyków — ustąpiła miejsca Dionizosowi by uniknąć konfliktu. Jej ogień palił się w każdym domu.",
+    "appearances": "Hades (gra)"
+  },
+  {
+    "id": 13,
+    "name": "Posejdon",
+    "name_orig": "Poseidon",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "morze",
+      "trzęsienia ziemi",
+      "konie"
+    ],
+    "desc": "Bóg mórz, trzęsień ziemi i koni. Brat Zeusa. Stworzył konie uderzając trójzębem w skałę. Patron żeglarzy — i ich nemezis gdy go rozgniewali.",
+    "appearances": "Odyseja — Homer; God of War (seria)"
+  },
+  {
+    "id": 14,
+    "name": "Zeus",
+    "name_orig": "Zeus",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "pioruny",
+      "niebo",
+      "prawo",
+      "król bogów"
+    ],
+    "desc": "Król bogów olimpijskich, władca nieba i piorunów. Obalił ojca Kronosa i przydzielił sobie niebo, bratu Posejdonowi morze, a Hadesowi podziemie. Znany z licznych romansów.",
+    "appearances": "Iliada; Odyseja — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 15,
+    "name": "Eter",
+    "name_orig": "Eter",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Aether"
+  },
+  {
+    "id": 16,
+    "name": "Ananke",
+    "name_orig": "Ananke",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Ananke"
+  },
+  {
+    "id": 17,
+    "name": "Chaos",
+    "name_orig": "Chaos",
+    "universe": "Grecki (pierwotny)",
+    "plec": "brak",
+    "tags": [
+      "stworzenie",
+      "otchłań",
+      "pierwotny"
+    ],
+    "desc": "Pierwotna pustka poprzedzająca stworzenie świata. Z Chaosu wyłoniły się Gaia (Ziemia), Tartaros, Erebos i Noc. Nie tyle bóstwo, co siła kosmiczna.",
+    "appearances": "Teogonia — Hezjod"
+  },
+  {
+    "id": 18,
+    "name": "Chronos",
+    "name_orig": "Chronos",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Chronos"
+  },
+  {
+    "id": 19,
+    "name": "Erebos",
+    "name_orig": "Erebos",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Erebus"
+  },
+  {
+    "id": 20,
+    "name": "Eros",
+    "name_orig": "Eros",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "miłość",
+      "pożądanie",
+      "strzały"
+    ],
+    "desc": "Bóg miłości i pożądania. W starszych mitach — jedna z pierwotnych sił stworzenia. W późniejszych — skrzydlate dziecko Afrodyty ze złotymi i ołowianymi strzałami.",
+    "appearances": "Teogonia — Hezjod; Hades (gra)"
+  },
+  {
+    "id": 21,
+    "name": "Hypnos",
+    "name_orig": "Hypnos",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "sen",
+      "odpoczynek",
+      "noc"
+    ],
+    "desc": "Bóstwo snu. Brat Tanatosa (Śmierci). Mieszkał w Podziemiu nad rzeką Lete. Nawet Zeus dał się uśpić Hypnosowi — przez co bogini Hera mogła swobodnie szkodzić Heraklesowi.",
+    "appearances": "Teogonia — Hezjod; Hades (gra)"
+  },
+  {
+    "id": 22,
+    "name": "Uran",
+    "name_orig": "Uranus",
+    "universe": "Grecki (pierwotny)",
+    "plec": "mężczyzna",
+    "tags": [
+      "niebo",
+      "ojciec Tytanów",
+      "pierwotny"
+    ],
+    "desc": "Personifikacja Nieba. Syn i mąż Gai. Ojciec Tytanów, Cyklopów i Sturękich. Okaleczony i obalony przez własnego syna Kronosa na podstępie Gai.",
+    "appearances": "Teogonia — Hezjod"
+  },
+  {
+    "id": 23,
+    "name": "Gaja",
+    "name_orig": "Gaia",
+    "universe": "Grecki (pierwotny)",
+    "plec": "kobieta",
+    "tags": [
+      "ziemia",
+      "matka",
+      "stworzenie",
+      "pierwotna"
+    ],
+    "desc": "Ziemia — pierwotna bogini matka. Jedna z pierwszych sił z Chaosu. Matka Uranosa (Nieba), Tytanów, Gigantów i Cyklopów. Symbolizuje płodność samej Ziemi.",
+    "appearances": "Teogonia — Hezjod; God of War (seria)"
+  },
+  {
+    "id": 24,
+    "name": "Fanes",
+    "name_orig": "Fanes",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Phanes"
+  },
+  {
+    "id": 25,
+    "name": "Pontos",
+    "name_orig": "Pontos",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Pontus"
+  },
+  {
+    "id": 26,
+    "name": "Tartar",
+    "name_orig": "Tartar",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Tartarus"
+  },
+  {
+    "id": 27,
+    "name": "Talassa",
+    "name_orig": "Talassa",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Thalassa"
+  },
+  {
+    "id": 28,
+    "name": "Thanatos",
+    "name_orig": "Thanatos",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "śmierć",
+      "pokój",
+      "kres"
+    ],
+    "desc": "Personifikacja łagodnej śmierci. Bliźniak Hypnosa, syn Nyks. W odróżnieniu od Kera (gwałtownej śmierci) — Tanatos symbolizował spokojne odejście. Dwukrotnie oszukany przez Syzyfa.",
+    "appearances": "Teogonia — Hezjod; Hades (gra)"
+  },
+  {
+    "id": 29,
+    "name": "Hemera",
+    "name_orig": "Hemera",
+    "universe": "Grecki",
+    "plec": "brak",
+    "tags": [
+      "greckie bóstwo"
+    ],
+    "desc": "Bóstwo z mitologii greckiej.",
+    "appearances": "Hemera"
+  },
+  {
+    "id": 30,
+    "name": "Nyx",
+    "name_orig": "Nyx",
+    "universe": "Grecki (pierwotny)",
+    "plec": "kobieta",
+    "tags": [
+      "noc",
+      "ciemność",
+      "pierwotna"
+    ],
+    "desc": "Bogini nocy — jedna z pierwotnych sił kosmosu. Tak potężna, że sam Zeus się jej lękał. Matka wielu personifikacji: Śmierci (Tanatosa), Snu (Hypnosa), Losu i innych.",
+    "appearances": "Teogonia — Hezjod; Hades (gra)"
+  },
+  {
+    "id": 31,
+    "name": "Nemezis",
+    "name_orig": "Nemesis",
+    "universe": "Grecki",
+    "plec": "kobieta",
+    "tags": [
+      "zemsta",
+      "sprawiedliwość",
+      "równowaga"
+    ],
+    "desc": "Bogini zemsty i nieuchronnej kary. Przywracała równowagę karząc hybris — pychę ludzi i bogów. Uosabia zasadę, że nadmierny sukces i pycha muszą zostać ukarane.",
+    "appearances": "Teogonia — Hezjod; mitologia grecka"
+  },
+  {
+    "id": 32,
+    "name": "Kojos",
+    "name_orig": "Kojos",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Coeus"
+  },
+  {
+    "id": 33,
+    "name": "Krios",
+    "name_orig": "Krios",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Crius"
+  },
+  {
+    "id": 34,
+    "name": "Kronos",
+    "name_orig": "Cronus",
+    "universe": "Grecki (Tytan)",
+    "plec": "mężczyzna",
+    "tags": [
+      "czas",
+      "Tytani",
+      "pożeranie dzieci",
+      "władca"
+    ],
+    "desc": "Przywódca Tytanów i władca złotego wieku. Połknął własne dzieci (olimpijczyków) by żadne z nich go nie obaliło — przepowiednia w końcu się spełniła gdy Zeus go pokonał.",
+    "appearances": "Teogonia — Hezjod; God of War (seria)"
+  },
+  {
+    "id": 35,
+    "name": "Hyperion",
+    "name_orig": "Hyperion",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Hyperion"
+  },
+  {
+    "id": 36,
+    "name": "Japetos",
+    "name_orig": "Japetos",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Iapetus"
+  },
+  {
+    "id": 37,
+    "name": "Mnemosyne",
+    "name_orig": "Mnemosyne",
+    "universe": "Grecki (Tytan)",
+    "plec": "kobieta",
+    "tags": [
+      "pamięć",
+      "czas",
+      "Muzy"
+    ],
+    "desc": "Tytanida pamięci. Matka dziewięciu Muz (przez Zeusa). Rzeka Mnemosyne w Podziemiu — kto z niej pił, pamiętał poprzednie życia. Przeciwieństwo rzeki Lete (zapomnienia).",
+    "appearances": "Teogonia — Hezjod"
+  },
+  {
+    "id": 38,
+    "name": "Okeanos",
+    "name_orig": "Okeanos",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Oceanus"
+  },
+  {
+    "id": 39,
+    "name": "Fojbe",
+    "name_orig": "Fojbe",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Phoebe"
+  },
+  {
+    "id": 40,
+    "name": "Rea",
+    "name_orig": "Rea",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Rhea"
+  },
+  {
+    "id": 41,
+    "name": "Tetys",
+    "name_orig": "Tetys",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Tethys"
+  },
+  {
+    "id": 42,
+    "name": "Teja",
+    "name_orig": "Teja",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Theia"
+  },
+  {
+    "id": 43,
+    "name": "Temida",
+    "name_orig": "Themis",
+    "universe": "Grecki (Tytan)",
+    "plec": "kobieta",
+    "tags": [
+      "prawo",
+      "porządek",
+      "proroctwa",
+      "sprawiedliwość"
+    ],
+    "desc": "Tytanida prawa boskiego i porządku. Druga żona Zeusa (przed Herą). Matka Parek (Mojr). Uosobiała naturalny ład i boskie prawo, zanim Atena przejęła patronat nad prawem ludzkim.",
+    "appearances": "Teogonia — Hezjod"
+  },
+  {
+    "id": 44,
+    "name": "Asteria",
+    "name_orig": "Asteria",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Asteria"
+  },
+  {
+    "id": 45,
+    "name": "Astrajos",
+    "name_orig": "Astrajos",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Astraeus"
+  },
+  {
+    "id": 46,
+    "name": "Atlas",
+    "name_orig": "Atlas",
+    "universe": "Grecki (Tytan)",
+    "plec": "mężczyzna",
+    "tags": [
+      "niebo",
+      "ciężar",
+      "siła",
+      "kara"
+    ],
+    "desc": "Tytan skazany przez Zeusa na dźwiganie sklepienia niebieskiego na ramionach — jako kara za przewodnictwo Tytanom w walce z olimpijczykami. Herkules na chwilę przejął jego ciężar.",
+    "appearances": "Teogonia — Hezjod; God of War (seria)"
+  },
+  {
+    "id": 47,
+    "name": "Aura",
+    "name_orig": "Aura",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Aura"
+  },
+  {
+    "id": 48,
+    "name": "Klymene",
+    "name_orig": "Klymene",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Clymene"
+  },
+  {
+    "id": 49,
+    "name": "Dione",
+    "name_orig": "Dione",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Dione"
+  },
+  {
+    "id": 50,
+    "name": "Helios",
+    "name_orig": "Helios",
+    "universe": "Grecki (Tytan)",
+    "plec": "mężczyzna",
+    "tags": [
+      "słońce",
+      "rydwan",
+      "światło"
+    ],
+    "desc": "Tytan słońca — przeprowadzał rydwan słoneczny po niebie każdego dnia. Jego syn Faeton zabrał rydwan bez pozwolenia i prawie spalił ziemię. Obserwator wszystkiego co dzieje się w dzień.",
+    "appearances": "Teogonia — Hezjod; God of War (seria)"
+  },
+  {
+    "id": 51,
+    "name": "Selene",
+    "name_orig": "Selene",
+    "universe": "Grecki (Tytan)",
+    "plec": "kobieta",
+    "tags": [
+      "księżyc",
+      "noc",
+      "srebrny rydwan"
+    ],
+    "desc": "Tytanida księżyca — pędziła srebrnym rydwanem przez nocne niebo. Zakochana w śmiertelnym pasterzu Endymionie, wyprosiła u Zeusa wieczny sen dla ukochanego — by zawsze był młody i piękny.",
+    "appearances": "Teogonia — Hezjod; mitologia grecka"
+  },
+  {
+    "id": 52,
+    "name": "Eos",
+    "name_orig": "Eos",
+    "universe": "Grecki (Tytan)",
+    "plec": "kobieta",
+    "tags": [
+      "świt",
+      "poranne niebo",
+      "miłość"
+    ],
+    "desc": "Tytanida świtu. Każdego ranka otwierała bramy nieba dla rydwanu słonecznego. Zakochana w śmiertelnikach — porywała pięknych młodzieńców. Jej łzy tworzą poranną rosę.",
+    "appearances": "Odyseja — Homer; Teogonia — Hezjod"
+  },
+  {
+    "id": 53,
+    "name": "Epimeteus",
+    "name_orig": "Epimeteus",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Epimetheus"
+  },
+  {
+    "id": 54,
+    "name": "Eurybia",
+    "name_orig": "Eurybia",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Eurybia"
+  },
+  {
+    "id": 55,
+    "name": "Eurynome",
+    "name_orig": "Eurynome",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Eurynome"
+  },
+  {
+    "id": 56,
+    "name": "Lelantos",
+    "name_orig": "Lelantos",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Lelantos"
+  },
+  {
+    "id": 57,
+    "name": "Leto",
+    "name_orig": "Leto",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Leto"
+  },
+  {
+    "id": 58,
+    "name": "Menojtios",
+    "name_orig": "Menojtios",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Menoeltius"
+  },
+  {
+    "id": 59,
+    "name": "Metis",
+    "name_orig": "Metis",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Metis"
+  },
+  {
+    "id": 60,
+    "name": "Ofion",
+    "name_orig": "Ofion",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Ophion"
+  },
+  {
+    "id": 61,
+    "name": "Pallaś",
+    "name_orig": "Pallaś",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Pallas"
+  },
+  {
+    "id": 62,
+    "name": "Perses",
+    "name_orig": "Perses",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Perses"
+  },
+  {
+    "id": 63,
+    "name": "Prometeusz",
+    "name_orig": "Prometheus",
+    "universe": "Grecki (Tytan)",
+    "plec": "mężczyzna",
+    "tags": [
+      "ogień",
+      "ludzkość",
+      "ofiara",
+      "bunt"
+    ],
+    "desc": "Tytan, który ukradł ogień bogom i dał go ludziom. Zeus ukarał go przykuciem do skały na Kaukazie — każdego dnia orzeł wyjadał mu odrastającą wątrobę. Uwolniony przez Heraklesa.",
+    "appearances": "Teogonia — Hezjod; Prometeusz w okowach — Ajschylos; Prometheus (film 2012)"
+  },
+  {
+    "id": 64,
+    "name": "Styks",
+    "name_orig": "Styks",
+    "universe": "Grecki (Tytan)",
+    "plec": "brak",
+    "tags": [
+      "Tytan",
+      "grecka mitologia"
+    ],
+    "desc": "Tytan z mitologii greckiej. Jeden z pierwotnych bogów poprzedzających olimpijczyków.",
+    "appearances": "Styx"
+  },
+  {
+    "id": 65,
+    "name": "Baldur",
+    "name_orig": "Baldr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "światło",
+      "piękno",
+      "nieśmiertelność",
+      "śmierć"
+    ],
+    "desc": "Najpiękniejszy z Asów, syn Odyna i Frigg. Matka Frigg uczyniła go odpornym na wszystko z wyjątkiem jemioły. Loki podstępem sprawił, że ślepy bóg Höðr zabił go jemiołą — wywołując żałobę wszechświata.",
+    "appearances": "Edda Poetycka; God of War (2018) — jako antagonista"
+  },
+  {
+    "id": 66,
+    "name": "Bragi",
+    "name_orig": "Bragi",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg poezji i skaldów. Mąż Idunn. Patron poetów i opowieści. Po śmierci wojownicy recytowali przed nim swoje czyny zanim zostali przyjęci do Walhalli.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 67,
+    "name": "Delling",
+    "name_orig": "Dellingr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 68,
+    "name": "Forseti",
+    "name_orig": "Forseti",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg sprawiedliwości i pojednania, syn Baldura. Jego siedziba Glitnir (ze złota i srebra) jest miejscem gdzie rozstrzyga się wszelkie spory.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 69,
+    "name": "Freyr",
+    "name_orig": "Freyr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg urodzaju, deszczu i słońca wśród Wanów. Brat Freyji. Posiadał magiczny miecz walczący samoczynnie. Rezygnując z miecza dla miłości do olbrzymki Gerðr, nie miał czym walczyć podczas Ragnaroku.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 70,
+    "name": "Heimdall",
+    "name_orig": "Heimdallr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "strażnik",
+      "Bifrost",
+      "zmysły",
+      "Ragnarok"
+    ],
+    "desc": "Strażnik Asgardu i tęczowego mostu Bifrost. Posiada zmysły tak ostre, że słyszy jak rośnie trawa i widzi przez 300 mil. Zatrąbi w róg Gjallarhorn gdy nadejdzie Ragnarok. Śmiertelny wróg Lokiego.",
+    "appearances": "Edda Poetycka; Marvel Thor (MCU)"
+  },
+  {
+    "id": 71,
+    "name": "Hermod",
+    "name_orig": "Hermóðr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 72,
+    "name": "Höðr",
+    "name_orig": "Höðr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 73,
+    "name": "Hœnir",
+    "name_orig": "Hœnir",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 74,
+    "name": "Loður",
+    "name_orig": "Lóðurr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 75,
+    "name": "Loki",
+    "name_orig": "Loki",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "oszustwo",
+      "zmiana kształtu",
+      "chaos",
+      "Ragnarok"
+    ],
+    "desc": "Bóg podstępu i zmiany kształtu. Syn olbrzyma Farbauti, adoptowany przez Asów. Sprawca śmierci Baldura przez podstęp. Zakuty do skały aż do Ragnaroku. Ojciec Fenrira, Jormunganda i Hel.",
+    "appearances": "Edda Poetycka; Loki (Marvel/MCU); God of War: Ragnarök"
+  },
+  {
+    "id": 76,
+    "name": "Mani",
+    "name_orig": "Máni",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 77,
+    "name": "Meili",
+    "name_orig": "Meili",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 78,
+    "name": "Njord",
+    "name_orig": "Njörðr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 79,
+    "name": "Odyn",
+    "name_orig": "Odin",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "mądrość",
+      "magia",
+      "śmierć",
+      "runy",
+      "Allfather"
+    ],
+    "desc": "Allfather — ojciec bogów Asów w Asgardzie. Poświęcił oko w studni Mimira dla mądrości. Wisiał 9 dni na Yggdrasil by odkryć runy. Jego kruki Huginn i Muninn obserwują świat. Ginie z ręki Fenrira podczas Ragnaroku.",
+    "appearances": "Edda Poetycka; Edda Prozaiczna; Marvel Thor; God of War: Ragnarök"
+  },
+  {
+    "id": 80,
+    "name": "Odr",
+    "name_orig": "Óðr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 81,
+    "name": "Saxnot",
+    "name_orig": "Saxnōt",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 82,
+    "name": "Thor",
+    "name_orig": "Thor",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "pioruny",
+      "siła",
+      "ochrona",
+      "Mjolnir"
+    ],
+    "desc": "Syn Odyna, bóg piorunów i ochrony ludzkości. Dzierży Mjolnir — młot mogący unieść tylko ktoś godny. Wróg Węża Midgardu Jormunganda — podczas Ragnaroku wzajemnie się zabijają.",
+    "appearances": "Edda Poetycka; Marvel Thor (MCU); God of War: Ragnarök"
+  },
+  {
+    "id": 83,
+    "name": "Ullr",
+    "name_orig": "Ullr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 84,
+    "name": "Vali",
+    "name_orig": "Váli",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 85,
+    "name": "Vidar",
+    "name_orig": "Viðarr",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 86,
+    "name": "Ve",
+    "name_orig": "Vé",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 87,
+    "name": "Vili",
+    "name_orig": "Vili",
+    "universe": "Nordycki",
+    "plec": "mężczyzna",
+    "tags": [
+      "nordyckie bóstwo",
+      "Asgard"
+    ],
+    "desc": "Bóg z mitologii nordyckiej — As lub Wan.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 88,
+    "name": "Baduhenna",
+    "name_orig": "Baduhenna",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 89,
+    "name": "Bil",
+    "name_orig": "Bil",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 90,
+    "name": "Beyla",
+    "name_orig": "Beyla",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 91,
+    "name": "Eir",
+    "name_orig": "Eir",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 92,
+    "name": "Eostre",
+    "name_orig": "Ēostre",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 93,
+    "name": "Freyja",
+    "name_orig": "Freyja",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "miłość",
+      "magia",
+      "płodność",
+      "wojna"
+    ],
+    "desc": "Bogini miłości, magii i płodności — ale też walki. Prowadzi swą karocę ciągniętą przez koty. Prawo pierwokupu połowy poległych wojowników (drugą połowę bierze Odyn do Walhalli). Rządzi Fólkvangr.",
+    "appearances": "Edda Poetycka; God of War: Ragnarök"
+  },
+  {
+    "id": 94,
+    "name": "Frigg",
+    "name_orig": "Frigg",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "małżeństwo",
+      "proroctwo",
+      "macierzyństwo"
+    ],
+    "desc": "Żona Odyna, matka Baldura. Bogini małżeństwa i macierzyństwa. Mimo że zna przeznaczenie wszystkich, nigdy go nie wyjawia. Opłakiwała śmierć syna Baldura.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 95,
+    "name": "Fulla",
+    "name_orig": "Fulla",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 96,
+    "name": "Gefion",
+    "name_orig": "Gefjun",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 97,
+    "name": "Gersemi",
+    "name_orig": "Gersemi",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 98,
+    "name": "Gerd",
+    "name_orig": "Gerðr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 99,
+    "name": "Gna",
+    "name_orig": "Gná",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 100,
+    "name": "Gullveig",
+    "name_orig": "Gullveig",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 101,
+    "name": "Hariasa",
+    "name_orig": "Hariasa",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 102,
+    "name": "Hlin",
+    "name_orig": "Hlín",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 103,
+    "name": "Hreta",
+    "name_orig": "Hretha",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 104,
+    "name": "Hnoss",
+    "name_orig": "Hnoss",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 105,
+    "name": "Ilmr",
+    "name_orig": "Ilmr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 106,
+    "name": "Idunn",
+    "name_orig": "Iðunn",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "jabłka",
+      "nieśmiertelność",
+      "wieczna młodość"
+    ],
+    "desc": "Strażniczka złotych jabłek wiecznej młodości — dzięki którym bogowie pozostają nieśmiertelni. Gdy Loki porwał ją dla olbrzyma Thjazi, bogowie zaczęli starzeć się i słabnąć.",
+    "appearances": "Edda Prozaiczna; God of War: Ragnarök"
+  },
+  {
+    "id": 107,
+    "name": "Irpa",
+    "name_orig": "Irpa",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 108,
+    "name": "Lofn",
+    "name_orig": "Lofn",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 109,
+    "name": "Nanna",
+    "name_orig": "Nanna",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Żona Baldura. Po jego śmierci umarła z rozpaczy i razem z nim została pochowana na stosie.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 110,
+    "name": "Nerthus",
+    "name_orig": "Nerthus",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 111,
+    "name": "Njorun",
+    "name_orig": "Njörun",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 112,
+    "name": "Ran",
+    "name_orig": "Rán",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini morza. Łowi rozbitków swoją siecią. Mąż Aegir. Ich córki to fale morskie.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 113,
+    "name": "Rind",
+    "name_orig": "Rindr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 114,
+    "name": "Saga",
+    "name_orig": "Sága",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 115,
+    "name": "Sandraudiga",
+    "name_orig": "Sandraudiga",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 116,
+    "name": "Sif",
+    "name_orig": "Sif",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "złote włosy",
+      "ziemia",
+      "urodzaj"
+    ],
+    "desc": "Żona Thora. Słynna ze swych złotych włosów symbolizujących złote zboże. Loki uciął jej włosy podczas snu — Thor zmusił go do zamówienia złotego zastępstwa u krasnoludów.",
+    "appearances": "Edda Prozaiczna; Marvel Thor (MCU)"
+  },
+  {
+    "id": 117,
+    "name": "Sigyn",
+    "name_orig": "Sigyn",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 118,
+    "name": "Sinthgunt",
+    "name_orig": "Sinthgunt",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 119,
+    "name": "Sjofn",
+    "name_orig": "Sjöfn",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 120,
+    "name": "Skadi",
+    "name_orig": "Skaði",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini polowań i gór. Olbrzymka, która dołączyła do Asów. Wybrała Njorda za męża na podstawie samych nóg — myśląc, że to Baldur.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 121,
+    "name": "Snotra",
+    "name_orig": "Snotra",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 122,
+    "name": "Sol",
+    "name_orig": "Sól",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 123,
+    "name": "Syn",
+    "name_orig": "Syn",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 124,
+    "name": "Tanfana",
+    "name_orig": "Tanfana",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 125,
+    "name": "Thrud",
+    "name_orig": "Þrúðr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 126,
+    "name": "Thorgerd",
+    "name_orig": "Þorgerðr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 127,
+    "name": "Holgabrud",
+    "name_orig": "Hölgabrúðr",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 128,
+    "name": "Var",
+    "name_orig": "Vár",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 129,
+    "name": "Vor",
+    "name_orig": "Vör",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 130,
+    "name": "Zisa",
+    "name_orig": "Zisa",
+    "universe": "Nordycki",
+    "plec": "kobieta",
+    "tags": [
+      "nordycka bogini",
+      "Asgard"
+    ],
+    "desc": "Bogini z mitologii nordyckiej.",
+    "appearances": "Edda Poetycka; mitologia nordycka"
+  },
+  {
+    "id": 131,
+    "name": "Amun",
+    "name_orig": "Amun",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Thebes",
+      "creation"
+    ],
+    "desc": "Egipskie bóstwo związane z: Thebes, creation.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 132,
+    "name": "Aten",
+    "name_orig": "Aten",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "sun"
+    ],
+    "desc": "Egipskie bóstwo związane z: sun.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 133,
+    "name": "Bastet",
+    "name_orig": "Bastet",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "kot",
+      "ochrona",
+      "domowe ognisko",
+      "Bubastis"
+    ],
+    "desc": "Bogini kotów, ochrony i domowego ogniska. Przedstawiana jako kobieta z głową kotki lub całkowita kotka. Cieszyła się ogromną popularnością — koty były w Egipcie uważane za święte.",
+    "appearances": "Mitologia egipska; mitologia Lovecrafta (pożyczone imię)"
+  },
+  {
+    "id": 134,
+    "name": "Bes",
+    "name_orig": "Bes",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "childbirth",
+      "children",
+      "dwarf",
+      "protection"
+    ],
+    "desc": "Egipskie bóstwo związane z: childbirth, children, dwarf. Przedstawiany jako dwarf.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 135,
+    "name": "Geb",
+    "name_orig": "Geb",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Ennead",
+      "earth"
+    ],
+    "desc": "Egipskie bóstwo związane z: Ennead, earth.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 136,
+    "name": "Hapi",
+    "name_orig": "Hapi",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Nile",
+      "flood",
+      "postać: flood"
+    ],
+    "desc": "Egipskie bóstwo związane z: Nile, flood. Przedstawiany jako flood.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 137,
+    "name": "Hathor",
+    "name_orig": "Hathor",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "afterlife",
+      "dance",
+      "foreign goods",
+      "foreign lands"
+    ],
+    "desc": "Egipskie bóstwo związane z: afterlife, dance, foreign goods.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 138,
+    "name": "Horus",
+    "name_orig": "Horus",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "niebo",
+      "słońce",
+      "królestwo",
+      "ochrona"
+    ],
+    "desc": "Bóg nieba z głową sokoła. Syn Ozyrysa i Izydy. Walczył z Setem by odzyskać tron ojca — podczas walki stracił oko (Oko Horusa = symbol ochrony). Faraon był żywą manifestacją Horusa.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 139,
+    "name": "Imhotep",
+    "name_orig": "Imhotep",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "architect",
+      "healer"
+    ],
+    "desc": "Egipskie bóstwo związane z: architect, healer.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 140,
+    "name": "Izyda",
+    "name_orig": "Isis",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "magia",
+      "macierzyństwo",
+      "ochrona",
+      "Ennead"
+    ],
+    "desc": "Bogini magii i macierzyństwa. Żona Ozyrysa, matka Horusa. Odtworzyła ciało zabitego męża i poczęła z nim syna. Jedna z najpotężniejszych w magii ze wszystkich bogów egipskich.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 141,
+    "name": "Chepri",
+    "name_orig": "Khepri",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "beetle",
+      "creation",
+      "scarab",
+      "sun"
+    ],
+    "desc": "Egipskie bóstwo związane z: beetle, creation, scarab. Przedstawiany jako scarab beetle.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 142,
+    "name": "Chnum",
+    "name_orig": "Khnum (Khnemu)",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Nile",
+      "flood",
+      "life",
+      "ram"
+    ],
+    "desc": "Egipskie bóstwo związane z: Nile, flood, life. Przedstawiany jako ram.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 143,
+    "name": "Chonsu",
+    "name_orig": "Khonsu",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "moon",
+      "postać: moon"
+    ],
+    "desc": "Egipskie bóstwo związane z: moon. Przedstawiany jako moon.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 144,
+    "name": "Maat",
+    "name_orig": "Maat",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "justice",
+      "order",
+      "truth"
+    ],
+    "desc": "Egipskie bóstwo związane z: justice, order, truth.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 145,
+    "name": "Min",
+    "name_orig": "Min",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "virility"
+    ],
+    "desc": "Egipskie bóstwo związane z: virility.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 146,
+    "name": "Montu",
+    "name_orig": "Montu",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Thebes",
+      "sun",
+      "war"
+    ],
+    "desc": "Egipskie bóstwo związane z: Thebes, sun, war.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 147,
+    "name": "Nefertum",
+    "name_orig": "Nefertum",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "lotus blossom",
+      "perfume",
+      "sun",
+      "time"
+    ],
+    "desc": "Egipskie bóstwo związane z: lotus blossom, perfume, sun.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 148,
+    "name": "Neit",
+    "name_orig": "Neith",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "Sais",
+      "creation",
+      "hunter"
+    ],
+    "desc": "Egipskie bóstwo związane z: Sais, creation, hunter.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 149,
+    "name": "Nechbet",
+    "name_orig": "Nekhbet (Nekhebit)",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "vulture",
+      "postać: vulture"
+    ],
+    "desc": "Egipskie bóstwo związane z: vulture. Przedstawiany jako vulture.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 150,
+    "name": "Nut",
+    "name_orig": "Nut",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "Ennead",
+      "sky"
+    ],
+    "desc": "Egipskie bóstwo związane z: Ennead, sky.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 151,
+    "name": "Ozyrys",
+    "name_orig": "Osiris",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "śmierć",
+      "zmartwychwstanie",
+      "zaświaty",
+      "Ennead"
+    ],
+    "desc": "Bóg śmierci i zmartwychwstania. Zabity i poćwiartowany przez brata Seta, odtworzony przez żonę Izydę. Władca Duatu — królestwa umarłych. Sędzia dusz na wadze serca.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 152,
+    "name": "Ptah",
+    "name_orig": "Ptah",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Memphis",
+      "craftsmen",
+      "creation"
+    ],
+    "desc": "Egipskie bóstwo związane z: Memphis, craftsmen, creation.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 153,
+    "name": "Ra",
+    "name_orig": "Ra",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "słońce",
+      "stworzenie",
+      "władca",
+      "Ennead"
+    ],
+    "desc": "Najważniejsze bóstwo starożytnego Egiptu. Każdego dnia przepływał przez niebo swoją Łódką Słoneczną, a nocą przemierzał Duat (zaświaty) walcząc z wężem Apopem. Łączono go z Horusem jako Ra-Horachty.",
+    "appearances": "Mitologia egipska; Smite (gra); Age of Mythology"
+  },
+  {
+    "id": 154,
+    "name": "Sekhmet",
+    "name_orig": "Sekhmet",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "lew",
+      "zniszczenie",
+      "ochrona",
+      "epidemie",
+      "choroba"
+    ],
+    "desc": "Bogini o lwiej głowie — uosobienie słońca w jego niszczycielskim aspekcie. Wysłana przez Ra by ukarać nieposłuszną ludzkość, prawie wytępiła całe stworzenie zanim Ra ją zatrzymał podstępem.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 155,
+    "name": "Serket",
+    "name_orig": "Serket",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "healing",
+      "protection",
+      "scorpion",
+      "postać: scorpion"
+    ],
+    "desc": "Egipskie bóstwo związane z: healing, protection, scorpion. Przedstawiany jako scorpion.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 156,
+    "name": "Szeszat",
+    "name_orig": "Seshat",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "record-keeping",
+      "scribe",
+      "writing",
+      "postać: scribe"
+    ],
+    "desc": "Egipskie bóstwo związane z: record-keeping, scribe, writing. Przedstawiany jako scribe.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 157,
+    "name": "Set",
+    "name_orig": "Set",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "chaos",
+      "burza",
+      "pustynna",
+      "zło",
+      "Ennead"
+    ],
+    "desc": "Bóg chaosu, burzy i pustyni. Zabił i poćwiartował brata Ozyrysa z zazdrości o władzę. Wróg Horusa. Mimo złej reputacji był też czczony jako bóg siły i ochrony granic Egiptu.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 158,
+    "name": "Szu",
+    "name_orig": "Shu",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "Ennead",
+      "air",
+      "wind"
+    ],
+    "desc": "Egipskie bóstwo związane z: Ennead, air, wind.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 159,
+    "name": "Sobek",
+    "name_orig": "Sobek",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "crocodile",
+      "postać: crocodile"
+    ],
+    "desc": "Egipskie bóstwo związane z: crocodile. Przedstawiany jako crocodile.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 160,
+    "name": "Taweret",
+    "name_orig": "Taweret",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "childbirth",
+      "hippopotamus",
+      "protection",
+      "women"
+    ],
+    "desc": "Egipskie bóstwo związane z: childbirth, hippopotamus, protection. Przedstawiany jako hippopotamus.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 161,
+    "name": "Tefnut",
+    "name_orig": "Tefnut",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "Ennead",
+      "water"
+    ],
+    "desc": "Egipskie bóstwo związane z: Ennead, water.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 162,
+    "name": "Toth",
+    "name_orig": "Thoth",
+    "universe": "Egipski",
+    "plec": "mężczyzna",
+    "tags": [
+      "pisarze",
+      "magia",
+      "mądrość",
+      "księżyc",
+      "Hermopolis"
+    ],
+    "desc": "Bóg księżyca, mądrości i pisarstwa. Jego atrybutem jest głowa ibisa lub pawiana. Zapisywał wyroki na sądzie dusz. Twórca hieroglifów, patron skrybów i wiedzy tajemnej.",
+    "appearances": "Mitologia egipska; Assassin's Creed: Origins"
+  },
+  {
+    "id": 163,
+    "name": "El Szaddaj",
+    "name_orig": "El Shaddai",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "wszechmoc",
+      "góra",
+      "El",
+      "imię Boga"
+    ],
+    "desc": "Jedno z imion Boga w Starym Testamencie — 'Bóg Wszechmogący' lub 'Bóg Gór'. Używane szczególnie w Księdze Rodzaju, gdy Bóg objawia się Abrahamowi.",
+    "appearances": "Biblia Hebrajska — Księga Rodzaju"
+  },
+  {
+    "id": 164,
+    "name": "El Elyon",
+    "name_orig": "El Elyon",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'El Elyon' znaczy 'The Most High God'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 165,
+    "name": "Adonai",
+    "name_orig": "Adonai",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Adonai' znaczy 'Lord, Master'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 166,
+    "name": "Jahwe (YHWH)",
+    "name_orig": "Yahweh",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "monoteizm",
+      "przymierze",
+      "stworzenie",
+      "Stary Testament"
+    ],
+    "desc": "Tetragram — czteroliterowe imię Boga w Biblii Hebrajskiej, wymawiane Jahwe lub Jehowa. Bóg przymierza z Abrahamem, Mojżeszem i Izraelem. Nieprzedstawiany wizualnie w tradycji żydowskiej.",
+    "appearances": "Biblia Hebrajska (Stary Testament); Tora"
+  },
+  {
+    "id": 167,
+    "name": "Jehowa Nissi",
+    "name_orig": "Jehovah Nissi",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Nissi' znaczy 'The Lord My Banner'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 168,
+    "name": "Jehowa Raah",
+    "name_orig": "Jehovah-Raah",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah-Raah' znaczy 'The Lord My Shepherd'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 169,
+    "name": "Jehowa Rafa",
+    "name_orig": "Jehovah Rapha",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Rapha' znaczy 'The Lord That Heals'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 170,
+    "name": "Jehowa Szamma",
+    "name_orig": "Jehovah Shammah",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Shammah' znaczy 'The Lord Is There'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 171,
+    "name": "Jehowa Tsidkenu",
+    "name_orig": "Jehovah Tsidkenu",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Tsidkenu' znaczy 'The Lord Our Righteousness'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 172,
+    "name": "Jehowa Mekoddiszkem",
+    "name_orig": "Jehovah Mekoddishkem",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Mekoddishkem' znaczy 'The Lord Who Sanctifies You'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 173,
+    "name": "El Olam",
+    "name_orig": "El Olam",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'El Olam' znaczy 'The Everlasting God'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 174,
+    "name": "Elohim",
+    "name_orig": "Elohim",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "stworzenie",
+      "liczba mnoga",
+      "Bóg"
+    ],
+    "desc": "Forma mnoga od 'El' (Bóg) — używana w Biblii jako imię Boga. Liczba mnoga interpretowana jako 'majestatyczna' lub przez niektórych jako ślad wcześniejszego politeizmu.",
+    "appearances": "Biblia Hebrajska — Księga Rodzaju"
+  },
+  {
+    "id": 175,
+    "name": "Qanna",
+    "name_orig": "Qanna",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Qanna' znaczy 'Jealous'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 176,
+    "name": "Jehowa Jireh",
+    "name_orig": "Jehovah Jireh",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Jireh' znaczy 'The Lord Will Provide'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 177,
+    "name": "Jehowa Szalom",
+    "name_orig": "Jehovah Shalom",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Shalom' znaczy 'The Lord Is Peace'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 178,
+    "name": "Jehowa Sabaoth",
+    "name_orig": "Jehovah Sabaoth",
+    "universe": "Hebrajski / Abrahamowy",
+    "plec": "brak",
+    "tags": [
+      "imię Boga",
+      "Stary Testament",
+      "monoteizm"
+    ],
+    "desc": "Hebrajskie imię Boga — 'Jehovah Sabaoth' znaczy 'The Lord of Hosts'.",
+    "appearances": "Biblia Hebrajska (Stary Testament)"
+  },
+  {
+    "id": 179,
+    "name": "Apollo",
+    "name_orig": "Apollo",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "słońce",
+      "muzyka",
+      "proroctwa",
+      "łucznictwo"
+    ],
+    "desc": "Bóg słońca, muzyki, sztuk, proroctw i leczenia. Bliźniak Artemidy. Wyrocznia w Delfach służyła mu jako głos. Patron Muz.",
+    "appearances": "Iliada — Homer; God of War (seria); Hades (gra)"
+  },
+  {
+    "id": 180,
+    "name": "Bachus",
+    "name_orig": "Bacchus",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej. Odpowiednik greckiego: Dionizos (gr.).",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 181,
+    "name": "Kaelus",
+    "name_orig": "Caelus",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 182,
+    "name": "Ceres",
+    "name_orig": "Ceres",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej. Odpowiednik greckiego: Demeter (gr.).",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 183,
+    "name": "Kupidyn",
+    "name_orig": "Cupid",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej. Odpowiednik greckiego: Eros (gr.).",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 184,
+    "name": "Diana",
+    "name_orig": "Diana",
+    "universe": "Rzymski",
+    "plec": "kobieta",
+    "tags": [
+      "łowiectwo",
+      "księżyc",
+      "dziewictwo"
+    ],
+    "desc": "Odpowiednik greckiej Artemidy. Bogini łowiectwa i księżyca. Kult szczególnie popularny wśród kobiet i niewolników.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 185,
+    "name": "Fortuna",
+    "name_orig": "Fortuna",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 186,
+    "name": "Janus",
+    "name_orig": "Janus",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "przejścia",
+      "początki",
+      "dwie twarze",
+      "czas"
+    ],
+    "desc": "Bóg bez greckiego odpowiednika — czysto rzymski. Dwie twarze — jedna patrzy w przeszłość, druga w przyszłość. Patron początków, przejść i bram. Styczeń (January) nosi jego imię.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 187,
+    "name": "Junona",
+    "name_orig": "Juno",
+    "universe": "Rzymski",
+    "plec": "kobieta",
+    "tags": [
+      "małżeństwo",
+      "kobiety",
+      "Rzym",
+      "Kapitol"
+    ],
+    "desc": "Odpowiednik greckiej Hery. Żona Jowisza, królowa bogów. Patronka Kartaginy — jej gniew napędzał Eneidę Wergiliusza. Miesiąc czerwiec nosi jej imię.",
+    "appearances": "Eneida — Wergiliusz"
+  },
+  {
+    "id": 188,
+    "name": "Jowisz",
+    "name_orig": "Jupiter",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "pioruny",
+      "niebo",
+      "prawo",
+      "władca"
+    ],
+    "desc": "Odpowiednik greckiego Zeusa. Król bogów i władca nieba. Jego świątynia na Kapitolu była centrum religijnego życia Rzymu. Orzeł i piorun jako symbole.",
+    "appearances": "Mitologia rzymska; Age of Mythology"
+  },
+  {
+    "id": 189,
+    "name": "Mars",
+    "name_orig": "Mars",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "wojna",
+      "rolnictwo",
+      "ojciec Romulusa"
+    ],
+    "desc": "Odpowiednik greckiego Aresa — ale bardziej szanowany. Ojciec założyciela Rzymu Romulusa. Drugi najważniejszy bóg panteonug rzymskiego po Jowiszu. Miesiąc marzec nosi jego imię.",
+    "appearances": "Mitologia rzymska; Age of Mythology"
+  },
+  {
+    "id": 190,
+    "name": "Merkury",
+    "name_orig": "Mercury",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "posłaniec",
+      "handel",
+      "złodzieje",
+      "podróż"
+    ],
+    "desc": "Odpowiednik greckiego Hermesa. Bóg handlu, posłaniec bogów. Patron kupców i złodziei. Planeta Merkury i pierwiastek rtęć noszą jego imię.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 191,
+    "name": "Minerwa",
+    "name_orig": "Minerva",
+    "universe": "Rzymski",
+    "plec": "kobieta",
+    "tags": [
+      "mądrość",
+      "rzemiosło",
+      "sztuka",
+      "Kapitol"
+    ],
+    "desc": "Odpowiednik greckiej Ateny. Bogini mądrości, rzemiosła i strategii. Jedna z Trzech Kapitolińskich obok Jowisza i Junony.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 192,
+    "name": "Neptun",
+    "name_orig": "Neptune",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "morze",
+      "trzęsienia ziemi",
+      "konie"
+    ],
+    "desc": "Odpowiednik greckiego Posejdona. Bóg mórz i wód. Planeta Neptun nosi jego imię.",
+    "appearances": "Mitologia rzymska; Age of Mythology"
+  },
+  {
+    "id": 193,
+    "name": "Nox",
+    "name_orig": "Nox",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 194,
+    "name": "Pluton",
+    "name_orig": "Pluto",
+    "universe": "Rzymski",
+    "plec": "mężczyzna",
+    "tags": [
+      "podziemie",
+      "bogactwo",
+      "śmierć"
+    ],
+    "desc": "Odpowiednik greckiego Hadesa. Władca podziemnego świata. Imię oznacza 'ten, który daje bogactwo' — bo kruszce i nasiona ziarna pochodzą z podziemi.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 195,
+    "name": "Prozerpina",
+    "name_orig": "Proserpina",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 196,
+    "name": "Saturn",
+    "name_orig": "Saturn",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej. Odpowiednik greckiego: Kronos (gr.).",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 197,
+    "name": "Sol Invictus",
+    "name_orig": "Sol Invictus",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 198,
+    "name": "Spes",
+    "name_orig": "Spes",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 199,
+    "name": "Terra",
+    "name_orig": "Terra",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 200,
+    "name": "Wenus",
+    "name_orig": "Venus",
+    "universe": "Rzymski",
+    "plec": "kobieta",
+    "tags": [
+      "miłość",
+      "piękno",
+      "Rzym"
+    ],
+    "desc": "Odpowiednik greckiej Afrodyty. Bogini miłości, piękna i płodności. Matka Eneasza — przodka Rzymian. Jeden z najważniejszych kultów w Rzymie.",
+    "appearances": "Mitologia rzymska; Botticelli: Narodziny Wenus"
+  },
+  {
+    "id": 201,
+    "name": "Weritas",
+    "name_orig": "Veritas",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 202,
+    "name": "Westa",
+    "name_orig": "Vesta",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej.",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 203,
+    "name": "Wulkan",
+    "name_orig": "Vulcan",
+    "universe": "Rzymski",
+    "plec": "brak",
+    "tags": [
+      "rzymskie bóstwo",
+      "mitologia"
+    ],
+    "desc": "Bóstwo z mitologii rzymskiej. Odpowiednik greckiego: Hefajstos (gr.).",
+    "appearances": "Mitologia rzymska"
+  },
+  {
+    "id": 204,
+    "name": "Abhoth",
+    "name_orig": "Abhoth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 205,
+    "name": "Ahtu",
+    "name_orig": "Ahtu",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 206,
+    "name": "Atlach-Nacha",
+    "name_orig": "Atlach-Nacha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 207,
+    "name": "Azathoth",
+    "name_orig": "Azathoth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Bezmyślny Sułtan",
+      "centrum wszechświata",
+      "chaos",
+      "pierwotny"
+    ],
+    "desc": "'Bezmyślny Sułtan Demonów' — szalony bóg siedzi w centrum wszechświata, otoczony pomniejszymi bogami grającymi na flecie. Ucieleśnienie chaosu i bezsensowności egzystencji.",
+    "appearances": "Mitologia Lovecrafta"
+  },
+  {
+    "id": 208,
+    "name": "Bastet",
+    "name_orig": "Bastet",
+    "universe": "Egipski",
+    "plec": "kobieta",
+    "tags": [
+      "kot",
+      "ochrona",
+      "domowe ognisko",
+      "Bubastis"
+    ],
+    "desc": "Bogini kotów, ochrony i domowego ogniska. Przedstawiana jako kobieta z głową kotki lub całkowita kotka. Cieszyła się ogromną popularnością — koty były w Egipcie uważane za święte.",
+    "appearances": "Mitologia egipska; mitologia Lovecrafta (pożyczone imię)"
+  },
+  {
+    "id": 209,
+    "name": "Bokrug",
+    "name_orig": "Bokrug",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 210,
+    "name": "Chaugnar Faugn",
+    "name_orig": "Chaugnar Faugn",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 211,
+    "name": "Cthugha",
+    "name_orig": "Cthugha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 212,
+    "name": "Cthulhu",
+    "name_orig": "Cthulhu",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "R'lyeh",
+      "czułki"
+    ],
+    "desc": "Śpiące bóstwo z kosmosu. Spoczywa w podwodnym mieście R'lyeh oczekując przebudzenia. Jego psychiczne sny wpływają na podatne umysły na całym świecie, wywołując szaleństwo. Symbol kosmicznej obojętności.",
+    "appearances": "Zew Cthulhu — H.P. Lovecraft (1928); Call of Cthulhu (gra RPG)"
+  },
+  {
+    "id": 213,
+    "name": "Cthylla",
+    "name_orig": "Cthylla",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 214,
+    "name": "Cxaxukluth",
+    "name_orig": "Cxaxukluth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 215,
+    "name": "Cyäegha",
+    "name_orig": "Cyäegha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 216,
+    "name": "Dagon",
+    "name_orig": "Dagon",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "głębiny",
+      "ryby",
+      "Głębini",
+      "morze"
+    ],
+    "desc": "Bóg morskich głębin. Czczony przez Głębinowych (Deep Ones) — hybrydy ludzi i morskich stworzeń. Pierwotnie bóg z mitologii kananejskiej, zaadaptowany przez Lovecrafta.",
+    "appearances": "Dagon — H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 217,
+    "name": "Daoloth",
+    "name_orig": "Daoloth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 218,
+    "name": "Eihort",
+    "name_orig": "Eihort",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 219,
+    "name": "Ghatanothoa",
+    "name_orig": "Ghatanothoa",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 220,
+    "name": "Ghisguth",
+    "name_orig": "Ghisguth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 221,
+    "name": "Gla'aki",
+    "name_orig": "Gla'aki",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 222,
+    "name": "Great Old One",
+    "name_orig": "Great Old One",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 223,
+    "name": "Hastur",
+    "name_orig": "Hastur",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Król w Żółtym",
+      "Carcosa",
+      "nie można wypowiedzieć",
+      "szaleństwo"
+    ],
+    "desc": "Jeden z Wielkich Przedwiecznych. Znany jako 'Ten Którego Nie Należy Nazywać'. Związany z symbolem żółtego znaku i sztuki dramatycznej, wywołującej szaleństwo. Miasto Carcosa to jego siedziba.",
+    "appearances": "Król w Żółtym — Robert W. Chambers; rozbudowany przez Lovecrafta; True Detective (serial)"
+  },
+  {
+    "id": 224,
+    "name": "Hydra",
+    "name_orig": "Hydra",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 225,
+    "name": "Hypnos",
+    "name_orig": "Hypnos",
+    "universe": "Grecki",
+    "plec": "mężczyzna",
+    "tags": [
+      "sen",
+      "odpoczynek",
+      "noc"
+    ],
+    "desc": "Bóstwo snu. Brat Tanatosa (Śmierci). Mieszkał w Podziemiu nad rzeką Lete. Nawet Zeus dał się uśpić Hypnosowi — przez co bogini Hera mogła swobodnie szkodzić Heraklesowi.",
+    "appearances": "Teogonia — Hezjod; Hades (gra)"
+  },
+  {
+    "id": 226,
+    "name": "Hziulquoigmnzhah",
+    "name_orig": "Hziulquoigmnzhah",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 227,
+    "name": "Ithaqua",
+    "name_orig": "Ithaqua",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 228,
+    "name": "Król w Żółtym",
+    "name_orig": "The King in Yellow",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 229,
+    "name": "Knygathin Zhaum",
+    "name_orig": "Knygathin Zhaum",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 230,
+    "name": "Nodens",
+    "name_orig": "Nodens",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 231,
+    "name": "Nyarlathotep",
+    "name_orig": "Nyarlathotep",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "posłaniec",
+      "tysiąc masek",
+      "aktywny",
+      "zło"
+    ],
+    "desc": "Jedyne aktywne bóstwo mitologii Lovecrafta. Służy starszym bogom jako posłaniec i dusza. Znany z tysiąca form (masek). W odróżnieniu od innych — aktywnie ingeruje w ludzkie sprawy i je niszczy.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 232,
+    "name": "Nyogtha",
+    "name_orig": "Nyogtha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 233,
+    "name": "Other God",
+    "name_orig": "Other God",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 234,
+    "name": "Outer God",
+    "name_orig": "Outer God",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 235,
+    "name": "Quachil Uttaus",
+    "name_orig": "Quachil Uttaus",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 236,
+    "name": "Sfatlicllp",
+    "name_orig": "Sfatlicllp",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 237,
+    "name": "Shathak",
+    "name_orig": "Shathak",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 238,
+    "name": "Shub-Niggurath",
+    "name_orig": "Shub-Niggurath",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "płodność",
+      "Czarna Koza",
+      "kosmiczna matka",
+      "szaleństwo"
+    ],
+    "desc": "'Czarna Koza Lasu z Tysiącem Młodych' — bóstwo płodności i kosmicznego tworenia. Rodzicielka potwornych Ciemnych Młodych (Dark Young). Jedno z częściej wzywanych bóstw w rytuałach kultystów.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 239,
+    "name": "Shudde M'ell",
+    "name_orig": "Shudde M'ell",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 240,
+    "name": "Tsathoggua",
+    "name_orig": "Tsathoggua",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 241,
+    "name": "Tulzscha",
+    "name_orig": "Tulzscha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 242,
+    "name": "Ubbo-Sathla",
+    "name_orig": "Ubbo-Sathla",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 243,
+    "name": "Vulthoom",
+    "name_orig": "Vulthoom",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 244,
+    "name": "Ycnágnnisssz",
+    "name_orig": "Ycnágnnisssz",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 245,
+    "name": "Y'golonac",
+    "name_orig": "Y'golonac",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 246,
+    "name": "Yibb-Tstll",
+    "name_orig": "Yibb-Tstll",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 247,
+    "name": "Yig",
+    "name_orig": "Yig",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 248,
+    "name": "Jog-Sotot",
+    "name_orig": "Yog-Sothoth",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 249,
+    "name": "Ythogtha",
+    "name_orig": "Ythogtha",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 250,
+    "name": "Zoth-Ommog",
+    "name_orig": "Zoth-Ommog",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 251,
+    "name": "Zstylzhemghi",
+    "name_orig": "Zstylzhemghi",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  },
+  {
+    "id": 252,
+    "name": "Zvilpogghua",
+    "name_orig": "Zvilpogghua",
+    "universe": "Mitologia Lovecrafta",
+    "plec": "brak",
+    "tags": [
+      "Wielki Przedwieczny",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Bóstwo lub kosmiczna istota z mitologii Howarda Phillipsa Lovecrafta.",
+    "appearances": "Mitologia Lovecrafta; Call of Cthulhu RPG"
+  }
 ]

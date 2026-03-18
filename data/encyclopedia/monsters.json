@@ -1,0 +1,1514 @@
+[
+  {
+    "id": 1,
+    "name": "Arachne",
+    "name_orig": "Arachne",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Kobieta przemieniona przez Atenę w pająka za śmiałość tkania wzorów rywalizujących z boginią.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 2,
+    "name": "Orzeł Kaukaski",
+    "name_orig": "Caucasian Eagle",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Gigantyczny orzeł zesłany przez Zeusa by wyjadać wątrobę przykutemu Prometeuszowi. Wiecznie odrastała.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 3,
+    "name": "Centaur",
+    "name_orig": "Centaur",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Pół człowiek, pół koń. Często dzicy i impulsywni, choć centaur Chiron był mądrym nauczycielem Achillesa.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 4,
+    "name": "Charybda",
+    "name_orig": "Charybdis",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór morski tworzący trzy razy dziennie śmiertelny wir pochłaniający okręty. Para z Scyllą strzegącą cieśniny.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 5,
+    "name": "Chimera",
+    "name_orig": "Chimera",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór złożony z lwa, kozy i węża. Zieje ogniem. Zabity przez Bellerofonata na skrzydlatym Pegazie.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 6,
+    "name": "Empusa",
+    "name_orig": "Empousai",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Demon kształtozmienny zamiast jednej nogi ma kopytko oślę a zamiast drugiej — brązową nogę. Wysyłana przez Hekate.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 7,
+    "name": "Gorgona",
+    "name_orig": "Gorgon",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Kobiety-potwory z wężami zamiast włosów — spojrzenie kamienizuje. Najbardziej znana: Meduza, zabita przez Perseusza.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 8,
+    "name": "Harpia",
+    "name_orig": "Harpy",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Skrzydlate kobiety-demony, posłanki bogów kary. Porywały jedzenie i ludzi do Tartaru.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 9,
+    "name": "Hipalektrion",
+    "name_orig": "Hippalectryon",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 10,
+    "name": "Hippocamp",
+    "name_orig": "Hippocampus",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 11,
+    "name": "Ichtiocentaur",
+    "name_orig": "Icthyocentaur",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 12,
+    "name": "Ipotane",
+    "name_orig": "Ipotane",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 13,
+    "name": "Lamia",
+    "name_orig": "Lamia",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 14,
+    "name": "Hydra",
+    "name_orig": "Hydra",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Wielogłowy wąż — odcinając jedną głowę wyrastały dwie nowe. Zabita przez Heraklesa z pomocą Jolajosa.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 15,
+    "name": "Mantykor",
+    "name_orig": "Manticore",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Lew z twarzą człowieka i ogonem skorpiona. Pożera ludzi nie zostawiając śladów.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 16,
+    "name": "Minotaur",
+    "name_orig": "Minotaur",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Pół człowiek, pół byk. Syn Pazyfae i byka Posejdona. Więziony w labiryncie na Krecie, zabity przez Tezeusza.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 17,
+    "name": "Mormo",
+    "name_orig": "Mormo",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 18,
+    "name": "Ofitaur",
+    "name_orig": "Ophitaurus",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 19,
+    "name": "Satyr",
+    "name_orig": "Satyr",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Pół człowiek, pół koza. Towarzysze Dionizosa — lubią wino, muzykę i zabawy. W Rzymie zwani Faunami.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 20,
+    "name": "Smok Syntyjski",
+    "name_orig": "Synthian Dracanus",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 21,
+    "name": "Syrena (Siren)",
+    "name_orig": "Siren",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Skrzydlate lub morskie istoty śpiewające tak pięknie, że żeglarze rozbijali okręty o skały. Odyseusz przywiązał się do masztu.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 22,
+    "name": "Taraksyp",
+    "name_orig": "Taraxippus",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 23,
+    "name": "Telekinowie",
+    "name_orig": "Telekhines",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Potwór z mitologii greckiej.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 24,
+    "name": "Tyfon",
+    "name_orig": "Typhon",
+    "universe": "Mitologia Grecka",
+    "tags": [
+      "grecki potwór",
+      "mitologia"
+    ],
+    "desc": "Ojciec potworów — największy ze wszystkich. Sto głów smoczych, oddech ognia. Prawie pokonał Zeusa, zanim ten przygniecił go górą Etna.",
+    "appearances": "Mitologia grecka; D&D Monster Manual"
+  },
+  {
+    "id": 25,
+    "name": "Anioł",
+    "name_orig": "angel",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Niebiański posłaniec i strażnik. W tradycji abrahamowej — istota ze skrzydłami służąca Bogu. Hierarchia: serafini, cherubini, archanioły.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 26,
+    "name": "Chochlik (Brownie)",
+    "name_orig": "brownie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 27,
+    "name": "Strach na Wróble",
+    "name_orig": "bugbear",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 28,
+    "name": "Chupacabra",
+    "name_orig": "chupacabra",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 29,
+    "name": "Bazyliszek",
+    "name_orig": "cockatrice",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Król gadów — jego spojrzenie lub oddech zabija. Jedyna broń: lustro odbijające jego wzrok.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 30,
+    "name": "Cyklop",
+    "name_orig": "cyclops",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 31,
+    "name": "Demon",
+    "name_orig": "demon",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 32,
+    "name": "Dżin",
+    "name_orig": "djinn",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 33,
+    "name": "Smok",
+    "name_orig": "dragon",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Legendarny gad-potwór — skarb i ogień. W tradycji zachodniej: zło do pokonania. W tradycji wschodniej: mądrość i dobrobyt.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 34,
+    "name": "Draugr",
+    "name_orig": "draugr",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Nordycki nieumarły — ożywiony wojownik strzegący swojego grobu i skarbów. Silniejszy i bardziej okrutny niż za życia.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 35,
+    "name": "Driada",
+    "name_orig": "dryad",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Nimfa drzew — związana z konkretnym drzewem, umiera gdy ono zginie.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 36,
+    "name": "Krasnolud",
+    "name_orig": "dwarf",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 37,
+    "name": "Żywiołak",
+    "name_orig": "elemental",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 38,
+    "name": "Elf",
+    "name_orig": "elf",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 39,
+    "name": "Wróżka",
+    "name_orig": "fairy",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 40,
+    "name": "Faun",
+    "name_orig": "faun",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 41,
+    "name": "Mrozowy Olbrzym",
+    "name_orig": "frost giant",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 42,
+    "name": "Gargulec",
+    "name_orig": "gargoyle",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 43,
+    "name": "Dżin",
+    "name_orig": "genie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 44,
+    "name": "Ghast",
+    "name_orig": "ghast",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 45,
+    "name": "Duch",
+    "name_orig": "ghost",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 46,
+    "name": "Ghul",
+    "name_orig": "ghoul",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Pożeracz zwłok z arabskiej mitologii. W mitologii Lovecrafta — troglodyci z katakumb.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 47,
+    "name": "Olbrzym",
+    "name_orig": "giant",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 48,
+    "name": "Gnom",
+    "name_orig": "gnome",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Małe podziemne stworzenie, strażnik skarbów. W mitologii renesansowej — duch ziemi.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 49,
+    "name": "Goblin",
+    "name_orig": "goblin",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Małe, złośliwe stworzenie z folkloru europejskiego. W fantasy najczęściej tchórzliwy łotr zamieszkujący jaskinie.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 50,
+    "name": "Golem",
+    "name_orig": "golem",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Stworzenie z gliny lub kamienia ożywione magią. W tradycji żydowskiej tworzony przez rabinów by chronić gminę.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 51,
+    "name": "Gorgona",
+    "name_orig": "gorgon",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 52,
+    "name": "Gremlin",
+    "name_orig": "gremlin",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Małe złośliwe stworzenie sabotujące maszyny. Popularny w folkliorze RAF podczas II Wojny Światowej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 53,
+    "name": "Gryf",
+    "name_orig": "griffon",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Pół lew, pół orzeł. Strażnik złota i skarbów. Symbol władzy królewskiej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 54,
+    "name": "Wiedźma (Hag)",
+    "name_orig": "hag",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 55,
+    "name": "Hipogryf",
+    "name_orig": "hippogriff",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Pół orzeł pół koń — skrzyżowanie Gryfa i klaczy. Różni się od Pegaza (koń ze skrzydłami).",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 56,
+    "name": "Hobgoblin",
+    "name_orig": "hobgoblin",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 57,
+    "name": "Homunkulus",
+    "name_orig": "homonculus",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 58,
+    "name": "Imp",
+    "name_orig": "imp",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 59,
+    "name": "Inkub",
+    "name_orig": "incubus",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 60,
+    "name": "Kappa",
+    "name_orig": "kappa",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Japońska wodna istota — humanoid z żółwią skorupą i miseczką wody na głowie. Lubi ogórki.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 61,
+    "name": "Kobold",
+    "name_orig": "kobold",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 62,
+    "name": "Kraken",
+    "name_orig": "kraken",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Morski potwór — olbrzymia ośmiornica lub kałamarnica. Pochodzi ze skandynawskiego folkloru morskiego.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 63,
+    "name": "Lamassu",
+    "name_orig": "lamassu",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 64,
+    "name": "Leprechaun",
+    "name_orig": "leprechaun",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 65,
+    "name": "Lisz",
+    "name_orig": "lich",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 66,
+    "name": "Syrena",
+    "name_orig": "mermaid",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 67,
+    "name": "Syrena (mężczyzna)",
+    "name_orig": "merman",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 68,
+    "name": "Mumia",
+    "name_orig": "mummy",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Reanimowane zwłoki egipskie. Klątwa faraonów. W fantasy — strażnik grobowców.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 69,
+    "name": "Naga",
+    "name_orig": "naga",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Wężo-ludzka istota z mitologii hinduskiej i buddyjskiej. Bywa zarówno dobra jak i zła.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 70,
+    "name": "Niks",
+    "name_orig": "nix",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 71,
+    "name": "Nimfa",
+    "name_orig": "nymph",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Duch natury — lasu, rzeki, morza lub gór. Piękne kobiety towarzyszące bogom.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 72,
+    "name": "Ogr",
+    "name_orig": "ogre",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Wielki, tępy ludożerca. Klasyczny potwór baśni i fantasy.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 73,
+    "name": "Oni",
+    "name_orig": "oni",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Japońskie demony — olbrzymy z rogami i maczugą. Stróże piekła buddyjskiego.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 74,
+    "name": "Ork",
+    "name_orig": "orc",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 75,
+    "name": "Pegaz",
+    "name_orig": "pegasus",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Skrzydlaty koń z mitologii greckiej. Syn Posejdona i Meduzy. Koń Bellerofanta.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 76,
+    "name": "Feniks",
+    "name_orig": "phoenix",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Ptak nieśmiertelny rodzący się z popiołów własnego płomienia. Symbol odrodzenia.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 77,
+    "name": "Piksja",
+    "name_orig": "pixie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 78,
+    "name": "Poltergeist",
+    "name_orig": "poltergeist",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 79,
+    "name": "Ruk",
+    "name_orig": "roc",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 80,
+    "name": "Sasquatch",
+    "name_orig": "sasquatch",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 81,
+    "name": "Selkie",
+    "name_orig": "selkie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Kobieta-foka ze szkockiego i irlandzkiego folkloru. Przybrawa ludzką postać zdjąwszy skórę fokową.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 82,
+    "name": "Widmo",
+    "name_orig": "spectre",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 83,
+    "name": "Sfinks",
+    "name_orig": "sphinx",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Lew ze skrzydłami i głową człowieka. Zadaje zagadki — zły odpowiedź oznacza śmierć.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 84,
+    "name": "Duszek",
+    "name_orig": "sprite",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 85,
+    "name": "Sukub",
+    "name_orig": "succubus",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 86,
+    "name": "Sylfa",
+    "name_orig": "sylph",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 87,
+    "name": "Ptak Gromu",
+    "name_orig": "thunderbird",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 88,
+    "name": "Troll",
+    "name_orig": "troll",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Olbrzymi, tępy potwór ze Skandynawii. Kamienieje w świetle słońca. Żyje pod mostami lub w górach.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 89,
+    "name": "Jednorożec",
+    "name_orig": "unicorn",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Biały koń z rogiem. Symbol czystości i magii. Tylko dziewica może go dotknąć.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 90,
+    "name": "Wampir",
+    "name_orig": "vampire",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Nieumarły żywiący się krwią żywych. Słowiańska i bałkańska tradycja ludowa. Śpi w trumnie, boi się słońca, czosnku i krzyża.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 91,
+    "name": "Walkiria",
+    "name_orig": "valkyrie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Nordyckie wojowniczki wybierające poległych na polu bitwy godnych Walhalli. Służą Odynowi.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 92,
+    "name": "Warg",
+    "name_orig": "warg",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 93,
+    "name": "Wendigo",
+    "name_orig": "wendigo",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Duch głodu z mitologii algonkijskiej. Opętuje ludzi skuszonych kanibalizmem, zmuszając ich do coraz większego głodu.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 94,
+    "name": "Wilkołak",
+    "name_orig": "werewolf",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Człowiek przemieniający się w wilka — przez klątwę lub ukąszenie. W folklorze słowiańskim i germańskim.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 95,
+    "name": "Wight",
+    "name_orig": "wight",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 96,
+    "name": "Czarownica",
+    "name_orig": "witch",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 97,
+    "name": "Zjawa",
+    "name_orig": "wraith",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Mityczna istota z tradycji folklorystycznej.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 98,
+    "name": "Wiwerna",
+    "name_orig": "wyvern",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Podobna do smoka, ale tylko dwie nogi i skrzydła zamiast rąk. Mniejsza od smoka, z trującym ogonem.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 99,
+    "name": "Yeti",
+    "name_orig": "yeti",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Śnieżny człowiek z Himalajów. Znany też jako Bigfoot w Ameryce. Tajemnicze stworzenie pozostawiające ślady.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 100,
+    "name": "Zombie",
+    "name_orig": "zombie",
+    "universe": "Mitologia (folklor)",
+    "tags": [
+      "folklor",
+      "mitologia"
+    ],
+    "desc": "Nieumarłe ciało bez woli. W folklorze haitańskim — człowiek wskrzeszony przez bokor.",
+    "appearances": "Mitologia; D&D Monster Manual; gry fantasy"
+  },
+  {
+    "id": 101,
+    "name": "Shoggoth",
+    "name_orig": "Shoggoth",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Pierwotna masa stworzona przez Starszych do wszelkiej pracy. Pozbawiona kształtu, zdolna do naśladowania każdej formy.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 102,
+    "name": "Głębinowy (Deep One)",
+    "name_orig": "Deep One",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Głębinowi — hybrydy ryb i ludzi zamieszkujące oceaniczne głębiny. Czczą Dagona i Cthulhu. Mogą żyć wiecznie jeśli nie zostaną zabici.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 103,
+    "name": "Mi-go",
+    "name_orig": "Mi-go",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczne grzyby z Yuggoth (Plutona) wydobywające minerały na Ziemi. Potrafią chirurgicznie usunąć mózg i przechować go w metalowym pojemniku.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 104,
+    "name": "Byakhee",
+    "name_orig": "Byakhee",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Sługi Hastara — stworzenia zdolne do lotu przez przestrzeń kosmiczną. Mogą przenosić ludzi między planetami.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 105,
+    "name": "Ghul Lovecraftowski",
+    "name_orig": "Ghoul",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Pożeracz trupów z arabskiej mitologii. W mitologii Lovecrafta — troglodyci zamieszkujący katakumby, żywiący się martwymi.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 106,
+    "name": "Nocny Demon (Night-gaunt)",
+    "name_orig": "Night-gaunt",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Beztwarzowe stworzenia z mitologii Lovecrafta — senne demony unoszone przez wiatr. W snach porywają śpiących w nieznane miejsca.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 107,
+    "name": "Pies Tindalos",
+    "name_orig": "Hound of Tindalos",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Poluje we wszystkich rogach (kątach) przestrzeni i czasu — może pojawić się przez każdy kąt prostokątny. Niszczy ofiary zostawiając niebieską ciecz.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 108,
+    "name": "Prastarot",
+    "name_orig": "Elder Thing",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 109,
+    "name": "Latający Polip",
+    "name_orig": "Flying Polyp",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 110,
+    "name": "Wielka Rasa Yith",
+    "name_orig": "Great Race of Yith",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 111,
+    "name": "Ghast",
+    "name_orig": "Ghast",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 112,
+    "name": "Wymiarowy Wędrowiec",
+    "name_orig": "Dimensional shambler",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 113,
+    "name": "Barwa z Kosmosu",
+    "name_orig": "Colour out of space",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Niewidzialna anomalia kosmiczna — niszczy życie i psychikę w promieniu spadku meteorytu. Inspiracja dla wielu dzieł SF.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 114,
+    "name": "Ciemne Młode Shub-Niggurath",
+    "name_orig": "Dark Young of Shub-Niggurath",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Potworni potomkowie kosmicznej matki. Podobne do drzew ze szponiami i czułkami.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 115,
+    "name": "Bezkształtny Potomek Tsathogguy",
+    "name_orig": "Formless spawn of Tsathoggua",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 116,
+    "name": "Ognisty Wampir",
+    "name_orig": "Fire vampire",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 117,
+    "name": "Polujący Horror",
+    "name_orig": "Hunting Horror",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 118,
+    "name": "Księżycowa Bestia",
+    "name_orig": "Moon-beast",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 119,
+    "name": "Gwiezdny Wampir",
+    "name_orig": "Star vampire",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 120,
+    "name": "Pająk z Lengu",
+    "name_orig": "Leng spider",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 121,
+    "name": "Szczurzołak",
+    "name_orig": "Rat-thing",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 122,
+    "name": "Piaszczysty Mieszkaniec",
+    "name_orig": "Sand dweller",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 123,
+    "name": "Chtonianin",
+    "name_orig": "Chthonian",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  },
+  {
+    "id": 124,
+    "name": "Gwiezdne Potomstwo Cthulhu",
+    "name_orig": "Starspawn of Cthulhu",
+    "universe": "Mitologia Lovecrafta",
+    "tags": [
+      "Lovecraft",
+      "kosmiczny horror",
+      "Cthulhu Mythos"
+    ],
+    "desc": "Kosmiczna istota z mitologii Lovecrafta.",
+    "appearances": "H.P. Lovecraft; Call of Cthulhu RPG"
+  }
+]
