@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ekwipunek — D&D</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/dnd.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    .eq-controls { display:flex; gap:1rem; flex-wrap:wrap; max-width:960px; margin:0 auto 1.5rem; padding:0 1.5rem; position:relative; z-index:1; }
+    .eq-controls input, .eq-controls select { flex:1; min-width:180px; }
+    .eq-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1rem; max-width:960px; margin:0 auto 4rem; padding:0 1.5rem; position:relative; z-index:1; }
+    .eq-card { border:1px solid var(--border); border-radius:4px; padding:1.25rem; background:rgba(255,255,255,0.02); transition:border-color 0.2s; }
+    .eq-card:hover { border-color:rgba(155,35,53,0.5); }
+    .eq-card h4 { font-family:var(--font-heading); color:var(--gold-light); margin-bottom:0.3rem; }
+    .eq-card .eq-meta { font-size:0.8rem; color:var(--text-muted); margin-bottom:0.4rem; }
+    .eq-card p { font-size:0.9rem; }
+    #loading { text-align:center; padding:3rem; color:var(--text-muted); font-family:var(--font-heading); }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <nav class="topnav">
+    <a href="../index.html" class="home">⚔️ Fantasy Hub</a>
+    <a href="index.html">D&D</a>
+    <a href="character-sheet.html">Karta Postaci</a>
+    <a href="spells.html">Zaklęcia</a>
+    <a href="equipment.html" class="active">Ekwipunek</a>
+  </nav>
+
+  <h1 class="page-title">⚔️ Ekwipunek D&D 5e</h1>
+  <p class="page-subtitle">Broń, zbroje i wyposażenie przygodnika</p>
+  <div class="divider"></div>
+
+  <div class="eq-controls">
+    <input type="text" id="search" placeholder="🔍 Szukaj przedmiotu..." oninput="filterEq()" />
+    <select id="cat-filter" onchange="filterEq()">
+      <option value="">Wszystkie kategorie</option>
+      <option value="weapon">Broń</option>
+      <option value="armor">Zbroja</option>
+      <option value="adventuring-gear">Wyposażenie</option>
+      <option value="tools">Narzędzia</option>
+    </select>
+  </div>
+
+  <div id="loading">⏳ Ładowanie ekwipunku z API...</div>
+  <div class="eq-grid" id="eq-grid"></div>
+
+  <script src="js/equipment.js"></script>
+  <script src="../style/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaklęcia — D&D</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/dnd.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    .spells-controls { display:flex; gap:1rem; flex-wrap:wrap; max-width:960px; margin:0 auto 1.5rem; padding:0 1.5rem; position:relative; z-index:1; }
+    .spells-controls input, .spells-controls select { flex:1; min-width:180px; }
+    .spells-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem; max-width:960px; margin:0 auto 4rem; padding:0 1.5rem; position:relative; z-index:1; }
+    .spell-card { border:1px solid var(--border); border-radius:4px; padding:1.25rem; background:rgba(255,255,255,0.02); cursor:pointer; transition:border-color 0.2s; }
+    .spell-card:hover { border-color:var(--gold); }
+    .spell-card h4 { font-family:var(--font-heading); color:var(--gold-light); margin-bottom:0.3rem; }
+    .spell-card .spell-meta { font-size:0.8rem; color:var(--text-muted); margin-bottom:0.5rem; }
+    .spell-card p { font-size:0.9rem; color:var(--text); display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+    .spell-level-badge { display:inline-block; padding:0.15rem 0.5rem; border-radius:3px; background:rgba(201,168,76,0.15); color:var(--gold); font-size:0.75rem; font-family:var(--font-heading); margin-right:0.4rem; }
+    #loading { text-align:center; padding:3rem; color:var(--text-muted); font-family:var(--font-heading); }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <nav class="topnav">
+    <a href="../index.html" class="home">⚔️ Fantasy Hub</a>
+    <a href="index.html">D&D</a>
+    <a href="character-sheet.html">Karta Postaci</a>
+    <a href="spells.html" class="active">Zaklęcia</a>
+    <a href="equipment.html">Ekwipunek</a>
+  </nav>
+
+  <h1 class="page-title">✨ Zaklęcia D&D 5e</h1>
+  <p class="page-subtitle">Wszystkie zaklęcia z SRD — filtruj i szukaj</p>
+  <div class="divider"></div>
+
+  <div class="spells-controls">
+    <input type="text" id="search" placeholder="🔍 Szukaj zaklęcia..." oninput="filterSpells()" />
+    <select id="level-filter" onchange="filterSpells()">
+      <option value="">Wszystkie poziomy</option>
+      <option value="0">Sztuczka (0)</option>
+      <option value="1">Poziom 1</option><option value="2">Poziom 2</option>
+      <option value="3">Poziom 3</option><option value="4">Poziom 4</option>
+      <option value="5">Poziom 5</option><option value="6">Poziom 6</option>
+      <option value="7">Poziom 7</option><option value="8">Poziom 8</option>
+      <option value="9">Poziom 9</option>
+    </select>
+    <select id="school-filter" onchange="filterSpells()">
+      <option value="">Wszystkie szkoły</option>
+      <option>Abjuration</option><option>Conjuration</option><option>Divination</option>
+      <option>Enchantment</option><option>Evocation</option><option>Illusion</option>
+      <option>Necromancy</option><option>Transmutation</option>
+    </select>
+  </div>
+
+  <div id="loading">⏳ Ładowanie zaklęć z API...</div>
+  <div class="spells-grid" id="spells-grid"></div>
+
+  <script src="js/spells.js"></script>
+  <script src="../style/main.js"></script>
+</body>
+</html>

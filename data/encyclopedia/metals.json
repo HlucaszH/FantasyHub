@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Mithril",
+    "universe": "Tolkien",
+    "tags": ["lekki", "wytrzymały", "magiczny"],
+    "desc": "Niezwykle lekki i wytrzymały metal odkopywany w Khazad-dûm. Cenniejszy od złota, lśniący jak srebro ale twardszy od stali.",
+    "appearances": "Władca Pierścieni, Hobbit"
+  },
+  {
+    "id": 2,
+    "name": "Vibranium",
+    "universe": "Marvel",
+    "tags": ["pochłaniający energię", "rzadki", "meteorytowy"],
+    "desc": "Metal meteorytowy z Wakandy. Pochłania i redystrybuuje energię kinetyczną. Użyty do stworzenia tarczy Kapitana Ameryki.",
+    "appearances": "Avengers, Black Panther, Captain America"
+  },
+  {
+    "id": 3,
+    "name": "Valyrian Steel",
+    "universe": "ASOIAF / Gra o Tron",
+    "tags": ["ostry", "magiczny", "czarny", "smoczy ogień"],
+    "desc": "Stop z Valyrii, stworzony przez smoczy ogień i zaklęcia. Nigdy nie tępieje, jest lżejszy od zwykłej stali. Tajemnica produkcji zaginęła wraz z Zagładą Valyrii.",
+    "appearances": "Gra o Tron (serial), Pieśń Lodu i Ognia (książki)"
+  },
+  {
+    "id": 4,
+    "name": "Adamantium",
+    "universe": "Marvel",
+    "tags": ["twardy", "niezniszczalny", "syntetyczny"],
+    "desc": "Syntetyczny stop metalu — absolutnie niezniszczalny. Stworzony przez rząd USA. Znany przede wszystkim z kości Wolverine'a.",
+    "appearances": "X-Men, Wolverine, Avengers"
+  },
+  {
+    "id": 5,
+    "name": "Cold Iron",
+    "universe": "D&D / Mitologia",
+    "tags": ["magiczny", "anty-fey", "żelazo"],
+    "desc": "Żelazo wydobyte i wykute bez użycia ognia. Skuteczne przeciwko istotom fey i demonom. Jego moc pochodzi z braku 'skażenia' ogniem.",
+    "appearances": "D&D 5e, mitologia celtycka, folklor europejski"
+  },
+  {
+    "id": 6,
+    "name": "Orichalcum",
+    "universe": "Mitologia / Final Fantasy",
+    "tags": ["złoty", "legendarny", "atlantydzki"],
+    "desc": "Mityczny metal z Atlantydy opisany przez Platona w dialogu Kritiasz. Drugi co do wartości po złocie. Lśnił czerwono-złotym blaskiem.",
+    "appearances": "Kritiasz (Platon), Final Fantasy, God of War"
+  },
+  {
+    "id": 7,
+    "name": "Uru",
+    "universe": "Marvel (nordycki)",
+    "tags": ["magiczny", "nordycki", "boski"],
+    "desc": "Metal z nordyckiej mitologii Marvela. Z niego wykuto Mjolnir — młot Thora oraz Stormbreaker. Pochodzi z umierającej gwiazdy.",
+    "appearances": "Thor, Avengers: Infinity War"
+  },
+  {
+    "id": 8,
+    "name": "Mana Steel",
+    "universe": "Trylogia Sowiego Maga",
+    "tags": ["magiczny", "mana", "rzadki"],
+    "desc": "Metal nasycony maną, używany do tworzenia magicznych broni i artefaktów w świecie Sowiego Maga.",
+    "appearances": "Trylogia Sowiego Maga"
+  }
+]

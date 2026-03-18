@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karta Postaci — D&D</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/dnd.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="stars"></div>
+  <nav class="topnav">
+    <a href="../index.html" class="home">⚔️ Fantasy Hub</a>
+    <a href="index.html">D&D</a>
+    <a href="character-sheet.html" class="active">Karta Postaci</a>
+    <a href="spells.html">Zaklęcia</a>
+    <a href="equipment.html">Ekwipunek</a>
+  </nav>
+
+  <h1 class="page-title">🧙 Karta Postaci</h1>
+  <p class="page-subtitle">Stwórz i zapisz swoją postać D&D 5e</p>
+  <div class="divider"></div>
+
+  <div class="sheet-container">
+
+    <!-- Podstawowe informacje -->
+    <div class="sheet-section">
+      <h2>Podstawowe informacje</h2>
+      <div class="field-grid-3">
+        <div class="field-row">
+          <label class="field-label">Imię postaci</label>
+          <input type="text" id="char-name" placeholder="np. Arathorn z Góry Północy" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Klasa</label>
+          <select id="char-class">
+            <option value="">Ładowanie...</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Rasa</label>
+          <select id="char-race">
+            <option value="">Ładowanie...</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Poziom</label>
+          <input type="text" id="char-level" placeholder="1" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Tło postaci</label>
+          <select id="char-background">
+            <option value="">— wybierz —</option>
+            <option>Akolita</option><option>Szarlatan</option><option>Kryminalista</option>
+            <option>Artysta ludowy</option><option>Szlachcic</option><option>Mędrzec</option>
+            <option>Żołnierz</option><option>Wędrowiec</option><option>Wychowanek gildi</option>
+          </select>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Wyrównanie</label>
+          <select id="char-alignment">
+            <option>Praworządne Dobre</option><option>Neutralne Dobre</option><option>Chaotyczne Dobre</option>
+            <option>Praworządne Neutralne</option><option>Czyste Neutralne</option><option>Chaotyczne Neutralne</option>
+            <option>Praworządne Złe</option><option>Neutralne Złe</option><option>Chaotyczne Złe</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Statystyki -->
+    <div class="sheet-section">
+      <h2>Statystyki (Ability Scores)</h2>
+      <div class="stats-grid" id="stats-grid">
+        <!-- generowane przez JS -->
+      </div>
+    </div>
+
+    <!-- HP i inicjatywa -->
+    <div class="sheet-section">
+      <h2>HP, Pancerz & Inicjatywa</h2>
+      <div class="field-grid-3">
+        <div class="field-row">
+          <label class="field-label">Maksymalne HP</label>
+          <input type="text" id="hp-max" placeholder="10" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Aktualne HP</label>
+          <input type="text" id="hp-cur" placeholder="10" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Klasa Pancerza (AC)</label>
+          <input type="text" id="ac" placeholder="12" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Inicjatywa</label>
+          <input type="text" id="initiative" placeholder="+2" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Szybkość (ft)</label>
+          <input type="text" id="speed" placeholder="30" />
+        </div>
+        <div class="field-row">
+          <label class="field-label">Premia Biegłości</label>
+          <input type="text" id="proficiency" placeholder="+2" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Historia postaci -->
+    <div class="sheet-section">
+      <h2>Historia & Opis</h2>
+      <div class="field-row">
+        <label class="field-label">Historia postaci</label>
+        <textarea id="char-backstory" placeholder="Skąd pochodzi twoja postać? Co ją ukształtowało?"></textarea>
+      </div>
+      <div class="field-grid-2">
+        <div class="field-row">
+          <label class="field-label">Cechy osobowości</label>
+          <textarea id="char-traits" placeholder="Dwa charakterystyczne cechy..."></textarea>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Ideały</label>
+          <textarea id="char-ideals" placeholder="W co wierzy Twoja postać?"></textarea>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Więzi</label>
+          <textarea id="char-bonds" placeholder="Co lub kto jest dla niej ważny?"></textarea>
+        </div>
+        <div class="field-row">
+          <label class="field-label">Słabości</label>
+          <textarea id="char-flaws" placeholder="Czego się boi lub w czym jest słaba?"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ekwipunek -->
+    <div class="sheet-section">
+      <h2>Ekwipunek</h2>
+      <div class="field-row">
+        <textarea id="char-equipment" placeholder="Wypisz ekwipunek postaci, jeden przedmiot na linię..."></textarea>
+      </div>
+    </div>
+
+    <!-- Notatki -->
+    <div class="sheet-section">
+      <h2>Notatki</h2>
+      <div class="field-row">
+        <textarea id="char-notes" style="min-height:120px;" placeholder="Dowolne notatki z sesji, ważne NPC, zadania..."></textarea>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" onclick="saveCharacter()">💾 Zapisz postać</button>
+      <button class="btn" onclick="loadCharacter()">📂 Wczytaj postać</button>
+      <button class="btn btn--red" onclick="clearCharacter()">🗑️ Wyczyść</button>
+    </div>
+
+  </div>
+
+  <script src="js/character.js"></script>
+  <script src="../style/main.js"></script>
+</body>
+</html>

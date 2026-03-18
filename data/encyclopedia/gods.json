@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Zeus", "universe": "Mitologia Grecka", "tags": ["pioruny", "niebo", "król bogów"], "desc": "Władca bogów olimpijskich, bóg nieba i piorunów. Syn Kronosa i Rei.", "appearances": "Iliada, Odyseja, God of War, Hades (gra)" },
+  { "id": 2, "name": "Odyn", "universe": "Mitologia Nordycka", "tags": ["mądrość", "magia", "śmierć", "Allfather"], "desc": "Allfather, król Asów. Poświęcił oko dla mądrości, wisiał na Yggdrasil 9 dni dla run.", "appearances": "Edda Poetycka, Marvel, God of War: Ragnarök" },
+  { "id": 3, "name": "Ao", "universe": "D&D (Forgotten Realms)", "tags": ["overgod", "neutralny", "Faerun"], "desc": "Overdeity Faerunu — jedyne bóstwo stojące ponad wszystkimi innymi bogami. Rzadko ingeruje w sprawy śmiertelników.", "appearances": "D&D Forgotten Realms, Baldur's Gate" },
+  { "id": 4, "name": "Mystra", "universe": "D&D (Forgotten Realms)", "tags": ["magia", "Weave", "bogini"], "desc": "Bogini magii w Faerunie. Utrzymuje Tkanie (Weave) — sieć przez którą przepływa cała magia. Wielokrotnie umierała i odradzała się.", "appearances": "D&D Forgotten Realms, Baldur's Gate 3" },
+  { "id": 5, "name": "Thor", "universe": "Mitologia Nordycka / Marvel", "tags": ["pioruny", "siła", "Mjolnir"], "desc": "Syn Odyna, bóg piorunów i siły. Dzierży Mjolnir. W Marvelu — superbohater i członek Avengers.", "appearances": "Edda Poetycka, Thor (Marvel), God of War: Ragnarök" },
+  { "id": 6, "name": "Lolth", "universe": "D&D (Forgotten Realms)", "tags": ["pająki", "drow", "chaos", "zło"], "desc": "Pajęcza Królowa, bogini Drow. Rządzi Demonweb Pits. Kapłanki Lolth to jedne z najpotężniejszych antagonistów w Faerunie.", "appearances": "D&D, Baldur's Gate 3" }
+]

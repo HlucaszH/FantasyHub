@@ -1,0 +1,191 @@
+/* Biblioteka */
+
+.lib-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.lib-upload-zone {
+  border: 2px dashed var(--border);
+  border-radius: 6px;
+  padding: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  transition: border-color 0.2s, background 0.2s;
+  cursor: pointer;
+}
+.lib-upload-zone:hover, .lib-upload-zone.drag-over {
+  border-color: var(--gold);
+  background: rgba(201,168,76,0.05);
+}
+.upload-inner span { font-size: 2.5rem; display: block; margin-bottom: 0.5rem; }
+.upload-inner p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1rem; }
+
+.add-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.4rem;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(26,107,107,0.6);
+  background: rgba(26,107,107,0.1);
+  color: #70c8c8;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-btn:hover { background: rgba(26,107,107,0.25); }
+
+.lib-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.lib-controls input, .lib-controls select {
+  flex: 1;
+  min-width: 180px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+}
+.lib-controls input:focus, .lib-controls select:focus { border-color: var(--gold); }
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.empty-msg {
+  grid-column: 1/-1;
+  text-align: center;
+  color: var(--text-muted);
+  padding: 3rem;
+  font-style: italic;
+}
+
+.book-card {
+  border: 1px solid rgba(26,107,107,0.3);
+  border-radius: 4px;
+  padding: 1.25rem 1rem;
+  background: linear-gradient(145deg, rgba(26,107,107,0.06) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+.book-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(26,107,107,0.2);
+  border-color: rgba(26,107,107,0.6);
+}
+
+.book-cover {
+  width: 100%;
+  aspect-ratio: 3/4;
+  background: linear-gradient(135deg, var(--bg2) 0%, rgba(26,107,107,0.15) 100%);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  border: 1px solid var(--border);
+  margin-bottom: 0.3rem;
+}
+
+.book-card h4 {
+  font-family: var(--font-heading);
+  color: var(--gold-light);
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.book-card .book-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.book-tag {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 2px;
+  font-size: 0.7rem;
+  font-family: var(--font-heading);
+  background: rgba(26,107,107,0.2);
+  color: #70c8c8;
+  border: 1px solid rgba(26,107,107,0.35);
+}
+
+.book-actions { display: flex; gap: 0.5rem; margin-top: 0.3rem; }
+.book-btn {
+  flex: 1;
+  padding: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+  background: transparent;
+}
+.book-btn-read { border: 1px solid rgba(26,107,107,0.5); color: #70c8c8; }
+.book-btn-read:hover { background: rgba(26,107,107,0.25); }
+.book-btn-del { border: 1px solid rgba(155,35,53,0.4); color: #e08080; }
+.book-btn-del:hover { background: rgba(155,35,53,0.2); }
+
+/* Czytnik */
+.reader-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 200;
+  flex-direction: column;
+}
+.reader-overlay.open { display: flex; }
+
+.reader-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+}
+.reader-bar span {
+  font-family: var(--font-heading);
+  color: var(--gold-light);
+  font-size: 0.9rem;
+}
+.reader-bar button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.reader-bar button:hover { border-color: var(--gold); color: var(--gold); }
+
+#reader-frame {
+  flex: 1;
+  border: none;
+  width: 100%;
+}

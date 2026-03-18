@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteka — Fantasy Hub</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/library.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="stars"></div>
+  <nav class="topnav">
+    <a href="../index.html" class="home">⚔️ Fantasy Hub</a>
+    <a href="../dnd/index.html">D&D</a>
+    <a href="../encyclopedia/index.html">Encyklopedia</a>
+    <a href="index.html" class="active">Biblioteka</a>
+  </nav>
+
+  <h1 class="page-title">📚 Biblioteka</h1>
+  <p class="page-subtitle">Twoja kolekcja książek o fantasy i D&D</p>
+  <div class="divider"></div>
+
+  <div class="lib-container">
+
+    <div class="lib-upload-zone" id="upload-zone">
+      <div class="upload-inner">
+        <span>📄</span>
+        <p>Przeciągnij tu plik PDF lub kliknij, żeby wybrać</p>
+        <input type="file" id="file-input" accept=".pdf" multiple style="display:none" />
+        <button class="add-btn" onclick="document.getElementById('file-input').click()">+ Dodaj książkę (PDF)</button>
+      </div>
+    </div>
+
+    <div class="lib-controls">
+      <input type="text" id="search" placeholder="🔍 Szukaj książki..." oninput="renderBooks()" />
+      <select id="tag-filter" onchange="renderBooks()">
+        <option value="">Wszystkie kategorie</option>
+        <option>D&D</option><option>Powieść</option><option>Lore</option>
+        <option>Podręcznik</option><option>Przygoda</option>
+      </select>
+    </div>
+
+    <div class="books-grid" id="books-grid">
+      <p class="empty-msg">Brak książek. Dodaj swój pierwszy PDF powyżej!</p>
+    </div>
+  </div>
+
+  <!-- Modal czytnika -->
+  <div class="reader-overlay" id="reader-overlay">
+    <div class="reader-bar">
+      <span id="reader-title">Tytuł</span>
+      <button onclick="closeReader()">✕ Zamknij</button>
+    </div>
+    <iframe id="reader-frame" src=""></iframe>
+  </div>
+
+  <script src="js/library.js"></script>
+  <script src="../style/main.js"></script>
+</body>
+</html>

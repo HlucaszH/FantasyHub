@@ -1,0 +1,237 @@
+/* ===========================
+   Fantasy Hub — Główny styl
+   =========================== */
+
+:root {
+  --bg:          #0d0b14;
+  --bg2:         #13101e;
+  --gold:        #c9a84c;
+  --gold-light:  #f0d080;
+  --red:         #9b2335;
+  --blue:        #2a4a7f;
+  --teal:        #1a6b6b;
+  --text:        #e8dcc8;
+  --text-muted:  #8a7f6e;
+  --border:      rgba(201,168,76,0.25);
+  --glow:        0 0 18px rgba(201,168,76,0.35);
+  --font-display: 'Cinzel Decorative', serif;
+  --font-heading: 'Cinzel', serif;
+  --font-body:    'Crimson Text', serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* --- Stars background --- */
+.stars {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse at 20% 30%, rgba(42,74,127,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 70%, rgba(155,35,53,0.10) 0%, transparent 60%);
+}
+.stars::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 30% 45%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 55% 20%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 85% 35%, rgba(255,255,255,0.5) 0%, transparent 100%),
+    radial-gradient(1px 1px at 45% 75%, rgba(255,255,255,0.4) 0%, transparent 100%),
+    radial-gradient(1px 1px at 25% 85%, rgba(255,255,255,0.3) 0%, transparent 100%),
+    radial-gradient(1px 1px at 90% 90%, rgba(255,255,255,0.4) 0%, transparent 100%);
+}
+
+/* --- Header --- */
+header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  color: var(--gold-light);
+  text-shadow: var(--glow), 0 0 40px rgba(201,168,76,0.2);
+  letter-spacing: 0.05em;
+  animation: fadeDown 0.8s ease both;
+}
+
+.tagline {
+  font-family: var(--font-heading);
+  color: var(--text-muted);
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  animation: fadeDown 0.8s 0.15s ease both;
+}
+
+/* --- Main cards --- */
+main.cards {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  flex: 1;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2.5rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text);
+  background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, transparent 100%);
+  backdrop-filter: blur(4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: fadeUp 0.7s ease both;
+  overflow: hidden;
+}
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.25s; }
+.card:nth-child(3) { animation-delay: 0.4s; }
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.card--dnd::before  { background: radial-gradient(circle at 50% 0%, rgba(155,35,53,0.18), transparent 70%); }
+.card--enc::before  { background: radial-gradient(circle at 50% 0%, rgba(42,74,127,0.18), transparent 70%); }
+.card--lib::before  { background: radial-gradient(circle at 50% 0%, rgba(26,107,107,0.18), transparent 70%); }
+
+.card:hover { transform: translateY(-6px); }
+.card:hover::before { opacity: 1; }
+.card--dnd:hover  { box-shadow: 0 8px 40px rgba(155,35,53,0.3);  border-color: rgba(155,35,53,0.6); }
+.card--enc:hover  { box-shadow: 0 8px 40px rgba(42,74,127,0.3);  border-color: rgba(42,74,127,0.6); }
+.card--lib:hover  { box-shadow: 0 8px 40px rgba(26,107,107,0.3); border-color: rgba(26,107,107,0.6); }
+
+.card__icon { font-size: 2.5rem; }
+
+.card h2 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--gold-light);
+  letter-spacing: 0.05em;
+}
+
+.card p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  flex: 1;
+}
+
+.card__cta {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: 0.5rem;
+}
+
+/* --- Footer --- */
+footer {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+/* --- Shared nav (used by sub-pages) --- */
+.topnav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(13,11,20,0.8);
+  backdrop-filter: blur(8px);
+}
+.topnav a {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+.topnav a:hover, .topnav a.active { color: var(--gold-light); }
+.topnav .home { margin-right: auto; color: var(--gold); }
+
+/* --- Utility --- */
+.page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--gold-light);
+  text-shadow: var(--glow);
+  text-align: center;
+  padding: 2.5rem 1rem 0.5rem;
+}
+.page-subtitle {
+  font-family: var(--font-heading);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.divider {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 0 auto 2rem;
+}
+
+/* --- Animations --- */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

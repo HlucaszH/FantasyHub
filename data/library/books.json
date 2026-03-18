@@ -1,0 +1,12 @@
+[
+  {
+    "id": "example_1",
+    "name": "Player's Handbook (D&D 5e)",
+    "tag": "Podręcznik",
+    "author": "Wizards of the Coast",
+    "year": 2014,
+    "language": "EN",
+    "notes": "Główny podręcznik gracza. Klasy, rasy, zaklęcia, ekwipunek.",
+    "file": "books/players-handbook.pdf"
+  }
+]

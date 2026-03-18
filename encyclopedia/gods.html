@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bogowie — Encyklopedia Fantasy</title>
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/encyclopedia.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="stars"></div>
+  <nav class="topnav">
+    <a href="../index.html" class="home">⚔️ Fantasy Hub</a>
+    <a href="../dnd/index.html">D&D</a>
+    <a href="index.html">Encyklopedia</a>
+    <a href="gods.html" class="active">Bogowie</a>
+  </nav>
+
+  <h1 class="page-title">⚡ Bogowie & Materiały</h1>
+  <p class="page-subtitle">Bóstwa z mitologii i światów fantasy</p>
+  <div class="divider"></div>
+
+  <div class="enc-container">
+    <button class="add-btn" onclick="openModal()">+ Dodaj nowe bóstwo</button>
+
+    <div class="enc-controls">
+      <input type="text" id="search" placeholder="🔍 Szukaj..." oninput="render()" />
+      <select id="universe-filter" onchange="render()">
+        <option value="">Wszystkie światy</option>
+      </select>
+    </div>
+
+    <div class="enc-grid" id="grid"></div>
+  </div>
+
+  <!-- Modal dodawania -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <h3>➕ Dodaj Bóstwo</h3>
+      <div class="field-row"><label>Nazwa</label><input id="m-name" type="text" /></div>
+      <div class="field-row"><label>Świat/Universe</label><input id="m-universe" type="text" placeholder="np. Marvel, Tolkien, D&D" /></div>
+      <div class="field-row"><label>Właściwości (tagi, przecinki)</label><input id="m-tags" type="text" placeholder="np. wytrzymały, magnetyczny" /></div>
+      <div class="field-row"><label>Opis</label><textarea id="m-desc"></textarea></div>
+      <div class="field-row"><label>Pojawia się w</label><input id="m-appearances" type="text" placeholder="np. Avengers (2012), Silmarillion" /></div>
+      <div class="modal-btns">
+        <button class="btn-save" onclick="saveEntry()">Zapisz</button>
+        <button class="btn-cancel" onclick="closeModal()">Anuluj</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/encyclopedia.js"></script>
+  <script>initEncyclopedia('gods');</script>
+  <script src="../style/main.js"></script>
+</body>
+</html>
