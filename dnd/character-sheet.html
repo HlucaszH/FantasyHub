@@ -7,6 +7,40 @@
   <link rel="stylesheet" href="../style/main.css" />
   <link rel="stylesheet" href="../style/dnd.css" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    /* Info boxy z opisami ras/klas */
+    .info-box {
+      background: var(--bg3); border: 1px solid var(--border);
+      border-radius: 2px; padding: 1rem 1.25rem; margin-top: 0.75rem;
+      box-shadow: inset 1px 1px 4px rgba(90,55,20,0.1);
+    }
+    .info-box h3 { font-family: var(--font-heading); color: var(--red); font-size: 1rem; margin-bottom: 0.3rem; }
+    .info-box h4 { font-family: var(--font-heading); color: var(--red); font-size: 0.9rem; }
+    .info-header { margin-bottom: 0.5rem; }
+    .info-opis { font-style: italic; color: var(--ink-muted); font-size: 0.95rem; margin-bottom: 0.75rem; line-height: 1.55; }
+    .info-bonusy { margin-bottom: 0.6rem; font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+    .info-bonusy strong { margin-right: 0.3rem; }
+    .info-row { font-size: 0.9rem; color: var(--ink); margin-bottom: 0.3rem; }
+    .info-cecha { margin-top: 0.6rem; padding-top: 0.5rem; border-top: 1px solid var(--border); }
+    .info-cecha strong { font-family: var(--font-heading); font-size: 0.8rem; color: var(--ink2); }
+    .info-cecha p { font-size: 0.88rem; color: var(--ink-muted); line-height: 1.5; margin-top: 0.15rem; }
+    .info-cechy { margin-top: 0.25rem; }
+    /* Metody statystyk */
+    .metoda-przyciski { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .metoda-btn {
+      padding: 0.45rem 1rem; font-family: var(--font-heading); font-size: 0.78rem;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      border: 2px solid var(--border2); background: var(--bg3); color: var(--ink-muted);
+      border-radius: 2px; cursor: pointer; transition: all 0.2s;
+    }
+    .metoda-btn:hover, .metoda-btn.aktywna {
+      border-color: var(--red); background: rgba(122,26,26,0.08); color: var(--red);
+    }
+    .standard-row, .punkty-row {
+      display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.6rem;
+    }
+    .standard-row select, .standard-row select { width: 80px; display: inline; }
+  </style>
 </head>
 <body>
   <div class="stars"></div>
@@ -24,7 +58,7 @@
 
   <div class="sheet-container">
 
-    <!-- Podstawowe informacje -->
+    <!-- ===== PODSTAWOWE INFORMACJE ===== -->
     <div class="sheet-section">
       <h2>Podstawowe informacje</h2>
       <div class="field-grid-3">
@@ -33,131 +67,211 @@
           <input type="text" id="char-name" placeholder="np. Arathorn z Góry Północy" />
         </div>
         <div class="field-row">
-          <label class="field-label">Klasa</label>
-          <select id="char-class">
-            <option value="">Ładowanie...</option>
-          </select>
-        </div>
-        <div class="field-row">
-          <label class="field-label">Rasa</label>
-          <select id="char-race">
-            <option value="">Ładowanie...</option>
-          </select>
-        </div>
-        <div class="field-row">
           <label class="field-label">Poziom</label>
           <input type="text" id="char-level" placeholder="1" />
         </div>
         <div class="field-row">
-          <label class="field-label">Tło postaci</label>
-          <select id="char-background">
-            <option value="">— wybierz —</option>
-            <option>Akolita</option><option>Szarlatan</option><option>Kryminalista</option>
-            <option>Artysta ludowy</option><option>Szlachcic</option><option>Mędrzec</option>
-            <option>Żołnierz</option><option>Wędrowiec</option><option>Wychowanek gildi</option>
-          </select>
-        </div>
-        <div class="field-row">
           <label class="field-label">Wyrównanie</label>
           <select id="char-alignment">
-            <option>Praworządne Dobre</option><option>Neutralne Dobre</option><option>Chaotyczne Dobre</option>
-            <option>Praworządne Neutralne</option><option>Czyste Neutralne</option><option>Chaotyczne Neutralne</option>
-            <option>Praworządne Złe</option><option>Neutralne Złe</option><option>Chaotyczne Złe</option>
+            <option>Praworządne Dobro</option><option>Neutralne Dobro</option><option>Chaotyczne Dobro</option>
+            <option>Praworządna Neutralność</option><option>Czysta Neutralność</option><option>Chaotyczna Neutralność</option>
+            <option>Praworządne Zło</option><option>Neutralne Zło</option><option>Chaotyczne Zło</option>
           </select>
         </div>
       </div>
     </div>
 
-    <!-- Statystyki -->
+    <!-- ===== KLASA ===== -->
     <div class="sheet-section">
-      <h2>Statystyki (Ability Scores)</h2>
-      <div class="stats-grid" id="stats-grid">
-        <!-- generowane przez JS -->
+      <h2>Klasa</h2>
+      <div class="field-row">
+        <label class="field-label">Wybierz klasę</label>
+        <select id="char-class"><option value="">Ładowanie...</option></select>
       </div>
+      <div id="klasa-info"></div>
     </div>
 
-    <!-- HP i inicjatywa -->
+    <!-- ===== RASA ===== -->
+    <div class="sheet-section">
+      <h2>Rasa</h2>
+      <div class="field-row">
+        <label class="field-label">Wybierz rasę</label>
+        <select id="char-race"><option value="">Ładowanie...</option></select>
+      </div>
+      <div id="podrasa-section" style="display:none" class="field-row">
+        <label class="field-label">Podrasa</label>
+        <select id="char-subrace"><option value="">— wybierz podrasę —</option></select>
+      </div>
+      <div id="rasa-info"></div>
+    </div>
+
+    <!-- ===== TŁO POSTACI ===== -->
+    <div class="sheet-section">
+      <h2>Tło Postaci</h2>
+      <div class="field-row">
+        <label class="field-label">Wybierz tło</label>
+        <select id="char-background"><option value="">Ładowanie...</option></select>
+      </div>
+      <div id="tlo-info"></div>
+    </div>
+
+    <!-- ===== STATYSTYKI ===== -->
+    <div class="sheet-section">
+      <h2>Statystyki (Ability Scores)</h2>
+
+      <div class="metoda-przyciski">
+        <button id="metoda-losowanie" class="metoda-btn aktywna" onclick="wybierzMetodeStatystyk('losowanie')">🎲 Rzut kośćmi (4k6)</button>
+        <button id="metoda-standard"  class="metoda-btn" onclick="wybierzMetodeStatystyk('standard')">📋 Standardowy układ</button>
+        <button id="metoda-punkty"    class="metoda-btn" onclick="wybierzMetodeStatystyk('punkty')">🪙 Wykupywanie punktów</button>
+      </div>
+
+      <!-- Losowanie -->
+      <div id="stat-losowanie">
+        <div class="dice-row" style="margin-bottom:0.75rem">
+          <button class="dice-btn" onclick="rzucajStatystyki()">🎲 Rzuć statystykami!</button>
+          <span id="roll-historia" style="font-style:italic;color:var(--ink-faded);font-size:0.85rem;align-self:center"></span>
+        </div>
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin-bottom:0.75rem">Każda statystyka = suma 3 najwyższych z 4k6. Wpisz wyniki ręcznie lub użyj przycisku.</p>
+      </div>
+
+      <!-- Standardowy układ -->
+      <div id="stat-standard" style="display:none">
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin-bottom:0.75rem">
+          Przydziel wartości: <strong>15, 14, 13, 12, 10, 8</strong> — każdą raz.
+        </p>
+        <div id="standard-grid"></div>
+      </div>
+
+      <!-- Punkty -->
+      <div id="stat-punkty" style="display:none">
+        <p style="font-size:0.85rem;color:var(--ink-muted);margin-bottom:0.75rem">
+          Masz <strong>27 punktów</strong>. Statystyki od 8 do 15. Koszt: 8=0, 9=1, 10=2, 11=3, 12=4, 13=5, 14=7, 15=9.
+        </p>
+        <div id="punkty-grid"></div>
+      </div>
+
+      <div class="stats-grid" id="stats-grid" style="margin-top:1.25rem"></div>
+      <p style="font-size:0.8rem;color:var(--ink-faded);margin-top:0.5rem;font-style:italic">Bonusy rasowe pokazane są pod wartością statystyki (czerwony tekst).</p>
+    </div>
+
+    <!-- ===== HP, PANCERZ, INICJATYWA ===== -->
     <div class="sheet-section">
       <h2>HP, Pancerz & Inicjatywa</h2>
       <div class="field-grid-3">
         <div class="field-row">
           <label class="field-label">Maksymalne HP</label>
-          <input type="text" id="hp-max" placeholder="10" />
+          <input type="text" id="hp-max" placeholder="np. 10" />
         </div>
         <div class="field-row">
           <label class="field-label">Aktualne HP</label>
-          <input type="text" id="hp-cur" placeholder="10" />
+          <input type="text" id="hp-cur" placeholder="np. 10" />
         </div>
         <div class="field-row">
-          <label class="field-label">Klasa Pancerza (AC)</label>
-          <input type="text" id="ac" placeholder="12" />
+          <label class="field-label">Klasa Pancerza (KP)</label>
+          <input type="text" id="ac" placeholder="np. 12" />
         </div>
         <div class="field-row">
           <label class="field-label">Inicjatywa</label>
-          <input type="text" id="initiative" placeholder="+2" />
+          <input type="text" id="initiative" placeholder="np. +2" />
         </div>
         <div class="field-row">
-          <label class="field-label">Szybkość (ft)</label>
-          <input type="text" id="speed" placeholder="30" />
+          <label class="field-label">Szybkość (metry)</label>
+          <input type="text" id="speed" placeholder="np. 9" />
         </div>
         <div class="field-row">
           <label class="field-label">Premia Biegłości</label>
-          <input type="text" id="proficiency" placeholder="+2" />
+          <input type="text" id="proficiency" placeholder="np. +2" />
         </div>
+      </div>
+
+      <!-- Rzucanie kośćmi w grze -->
+      <div style="margin-top:1rem">
+        <label class="field-label">Rzut kością podczas gry</label>
+        <div class="dice-row">
+          <button class="dice-btn" onclick="rzucKosc(4)">k4</button>
+          <button class="dice-btn" onclick="rzucKosc(6)">k6</button>
+          <button class="dice-btn" onclick="rzucKosc(8)">k8</button>
+          <button class="dice-btn" onclick="rzucKosc(10)">k10</button>
+          <button class="dice-btn" onclick="rzucKosc(12)">k12</button>
+          <button class="dice-btn" onclick="rzucKosc(20)">k20</button>
+          <button class="dice-btn" onclick="rzucKosc(100)">k100</button>
+          <div class="dice-result" id="dice-result">—</div>
+        </div>
+        <div id="dice-log" style="font-size:0.82rem;color:var(--ink-muted);margin-top:0.4rem;font-style:italic"></div>
       </div>
     </div>
 
-    <!-- Historia postaci -->
+    <!-- ===== EKWIPUNEK STARTOWY ===== -->
     <div class="sheet-section">
-      <h2>Historia & Opis</h2>
+      <h2>Ekwipunek Startowy</h2>
+      <div id="ekwipunek-startowy">
+        <p style="color:var(--ink-faded);font-style:italic">Wybierz klasę i tło by zobaczyć ekwipunek startowy.</p>
+      </div>
+      <div class="field-row" style="margin-top:1rem">
+        <label class="field-label">Twój ekwipunek (notatki)</label>
+        <textarea id="char-equipment" placeholder="Wpisz swój ekwipunek, jeden przedmiot na linię..."></textarea>
+      </div>
+    </div>
+
+    <!-- ===== HISTORIA POSTACI ===== -->
+    <div class="sheet-section">
+      <h2>Historia & Osobowość</h2>
       <div class="field-row">
         <label class="field-label">Historia postaci</label>
-        <textarea id="char-backstory" placeholder="Skąd pochodzi twoja postać? Co ją ukształtowało?"></textarea>
+        <textarea id="char-backstory" placeholder="Skąd pochodzi twoja postać? Co ją ukształtowało? Jakie przeżyła przygody przed tą kampanią?"></textarea>
       </div>
       <div class="field-grid-2">
         <div class="field-row">
           <label class="field-label">Cechy osobowości</label>
-          <textarea id="char-traits" placeholder="Dwa charakterystyczne cechy..."></textarea>
+          <textarea id="char-traits" placeholder="Dwie charakterystyczne cechy charakteru..."></textarea>
         </div>
         <div class="field-row">
           <label class="field-label">Ideały</label>
-          <textarea id="char-ideals" placeholder="W co wierzy Twoja postać?"></textarea>
+          <textarea id="char-ideals" placeholder="W co wierzy Twoja postać? Co ją napędza?"></textarea>
         </div>
         <div class="field-row">
-          <label class="field-label">Więzi</label>
-          <textarea id="char-bonds" placeholder="Co lub kto jest dla niej ważny?"></textarea>
+          <label class="field-label">Więzy</label>
+          <textarea id="char-bonds" placeholder="Co lub kto jest dla niej ważny? Rodzina, organizacja, cel?"></textarea>
         </div>
         <div class="field-row">
           <label class="field-label">Słabości</label>
-          <textarea id="char-flaws" placeholder="Czego się boi lub w czym jest słaba?"></textarea>
+          <textarea id="char-flaws" placeholder="Czego się boi? W czym jest słaba? Jakie ma wady?"></textarea>
         </div>
       </div>
     </div>
 
-    <!-- Ekwipunek -->
+    <!-- ===== NOTATKI ===== -->
     <div class="sheet-section">
-      <h2>Ekwipunek</h2>
-      <div class="field-row">
-        <textarea id="char-equipment" placeholder="Wypisz ekwipunek postaci, jeden przedmiot na linię..."></textarea>
-      </div>
-    </div>
-
-    <!-- Notatki -->
-    <div class="sheet-section">
-      <h2>Notatki</h2>
-      <div class="field-row">
-        <textarea id="char-notes" style="min-height:120px;" placeholder="Dowolne notatki z sesji, ważne NPC, zadania..."></textarea>
-      </div>
+      <h2>Notatki z Sesji</h2>
+      <textarea id="char-notes" style="min-height:140px;" placeholder="Ważne NPC, odkryte miejsca, aktywne zadania, nagrody..."></textarea>
     </div>
 
     <div class="btn-row">
-      <button class="btn" onclick="saveCharacter()">💾 Zapisz postać</button>
+      <button class="btn" onclick="saveCharacter()">💾 Zapisz postać (JSON)</button>
       <button class="btn" onclick="loadCharacter()">📂 Wczytaj postać</button>
-      <button class="btn btn--red" onclick="clearCharacter()">🗑️ Wyczyść</button>
+      <button class="btn btn--red" onclick="clearCharacter()">🗑️ Wyczyść formularz</button>
     </div>
 
   </div>
 
+  <script>
+    // Rzucanie kością podczas gry
+    const rzucKosc = (faces) => {
+      const wynik = Math.floor(Math.random() * faces) + 1;
+      const el = document.getElementById('dice-result');
+      const log = document.getElementById('dice-log');
+      if (el) { el.textContent = wynik; el.style.color = wynik === faces ? 'var(--red)' : ''; }
+      if (log) log.textContent = `Ostatni rzut: k${faces} → ${wynik}`;
+    };
+
+    // Inicjalizacja metod statystyk
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+        budujStandardArray();
+        budujSystemPunktowy();
+      }, 500);
+    });
+  </script>
   <script src="js/character.js"></script>
   <script src="../style/main.js"></script>
 </body>

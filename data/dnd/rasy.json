@@ -1,0 +1,253 @@
+[
+  {
+    "index": "czlowiek",
+    "name": "Człowiek",
+    "opis": "Najliczniejsza i najbardziej zróżnicowana rasa. Ludzie są ambitni, innowacyjni i wyjątkowo zdolni do adaptacji — przez co dominują w większości zakątków świata.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "SIŁ", "bonus": 1 },
+      { "stat": "ZRE", "bonus": 1 },
+      { "stat": "KON", "bonus": 1 },
+      { "stat": "INT", "bonus": 1 },
+      { "stat": "MĄD", "bonus": 1 },
+      { "stat": "CHA", "bonus": 1 }
+    ],
+    "cechy": [
+      { "nazwa": "Wszechstronność", "opis": "Zyskujesz biegłość w jednej dodatkowej umiejętności według własnego wyboru." },
+      { "nazwa": "Języki", "opis": "Znasz Wspólny (Angielski) oraz jeden język dodatkowy według wyboru." }
+    ],
+    "podrasy": [],
+    "jezykidodatkowe": 1,
+    "ekwipunek_startowy": []
+  },
+  {
+    "index": "elf",
+    "name": "Elf",
+    "opis": "Elfy są magiczną rasą niezwykłej wdzięku i gracji, zamieszkującą mroczne lasy i starannie pielęgnowane krainy elfickie. Żyją ponad 700 lat i zachowują pozorną młodość przez całe życie.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "ZRE", "bonus": 2 }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle. W ciemności widzisz jak przy słabym oświetleniu — nie rozróżniasz kolorów." },
+      { "nazwa": "Zmysły elfa", "opis": "Masz biegłość w umiejętnościach Spostrzegawczość i Przeszukiwanie." },
+      { "nazwa": "Elficki trans", "opis": "Elfy nie śpią. Zamiast tego medytują w głębokim transie 4 godziny. Po odpoczynku jesteś tak samo wypoczęty jak człowiek po 8 godzinach snu." },
+      { "nazwa": "Odporność na urok", "opis": "Masz przewagę na rzuty obronne przeciwko oczarowaniu. Magia nie może uśpić cię do snu." }
+    ],
+    "podrasy": [
+      {
+        "index": "elf-wysoki",
+        "name": "Elf Wysoki",
+        "opis": "Wysocy elfowie mają smukłe ciało i niezwykły intelekt. Wśród elfów znani z arystokratycznych tendencji.",
+        "bonusy_statystyk": [ { "stat": "INT", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Biegłość z bronią", "opis": "Masz biegłość z mieczem długim, mieczem krótkim, krótkim łukiem i długim łukiem." },
+          { "nazwa": "Sztuczka", "opis": "Znasz jedną sztuczką (cantrip) z listy czarodzieja. Modyfikatorem rzutów jest Inteligencja." },
+          { "nazwa": "Dodatkowy język", "opis": "Znasz jeden dodatkowy język według wyboru." }
+        ]
+      },
+      {
+        "index": "elf-lesny",
+        "name": "Elf Leśny",
+        "opis": "Leśne elfy mają wyjątkową zwinność i skradanie. Wolą dzikie miejsca od cywilizacji.",
+        "bonusy_statystyk": [ { "stat": "MĄD", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Biegłość z bronią", "opis": "Masz biegłość z mieczem długim, mieczem krótkim, krótkim łukiem i długim łukiem." },
+          { "nazwa": "Zwiększona szybkość", "opis": "Twoja szybkość bazowa wynosi 10,5 metra zamiast 9 metrów." },
+          { "nazwa": "Maska dziczy", "opis": "Możesz próbować ukryć się, gdy jesteś tylko lekko zasłonięty przez liście, silny deszcz, śnieg, mgłę lub inne zjawiska naturalne." }
+        ]
+      },
+      {
+        "index": "elf-mroczny",
+        "name": "Mroczny Elf (Drow)",
+        "opis": "Wygnaniec żyjący w Podziemiu. Drow mają srebrzystobiałe włosy i szarą lub czarną skórę. Większość służy Pajęczej Królowej Lolth.",
+        "bonusy_statystyk": [ { "stat": "CHA", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Ciemnowidztwo (ulepszone)", "opis": "Widzisz w całkowitej ciemności na 36 metrów (zamiast 18)." },
+          { "nazwa": "Wrażliwość na słońce", "opis": "Masz utrudnienie na rzuty na Atak i Spostrzegawczość opartą o wzrok, gdy ty lub cel ataku jesteście w bezpośrednim świetle słonecznym." },
+          { "nazwa": "Magia Drow", "opis": "Znasz sztuczki Tańczące Ogniki. Na 3. poziomie możesz rzucić Kule Błyskawicy raz dziennie. Na 5. Ciemność raz dziennie. CHA jest modyfikatorem." }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "krasnolud",
+    "name": "Krasnolud",
+    "opis": "Odważni i wytrwali, krasnoludy są znani z umiejętności rzemieślniczych i bojowych. Zamieszkują podziemne twierdze i góry, pamiętając stare krzywdy przez pokolenia.",
+    "szybkosc": 7.5,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "KON", "bonus": 2 }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle. W ciemności widzisz jak przy słabym oświetleniu." },
+      { "nazwa": "Odporność krasnoludów", "opis": "Masz przewagę na rzuty obronne przeciwko truciźnie i odporność na obrażenia od trucizny." },
+      { "nazwa": "Bojowe wyszkolenie", "opis": "Masz biegłość z toporem, ręcznym toporem, lekkim młotem i wojennym młotem." },
+      { "nazwa": "Zmysł kamienia", "opis": "Gdy wykonujesz test Historii dotyczący pochodzenia kamiennej pracy, uważasz się za biegłego i dodajesz podwójny bonus biegłości." },
+      { "nazwa": "Znajomość narzędzi", "opis": "Masz biegłość z narzędziami kowala, warzenia piwa lub kamieniarza." }
+    ],
+    "podrasy": [
+      {
+        "index": "krasnolud-gorski",
+        "name": "Krasnolud Górski",
+        "opis": "Przystosowany do życia w wysokich górach i twardych warunkach. Znani z hartu ducha.",
+        "bonusy_statystyk": [ { "stat": "SIŁ", "bonus": 2 } ],
+        "cechy": [
+          { "nazwa": "Wyszkolenie z zbroi krasnoludów", "opis": "Masz biegłość z lekką i średnią zbroją." }
+        ]
+      },
+      {
+        "index": "krasnolud-wzgorzowy",
+        "name": "Krasnolud Wzgórzowy",
+        "opis": "Bardziej odporni niż inne krasnoludy, słyną z wyjątkowej żywotności.",
+        "bonusy_statystyk": [ { "stat": "MĄD", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Wytrzymałość krasnoludów", "opis": "Twoje maksimum HP wzrasta o 1, a przy każdym awansie na poziom wzrasta o kolejny 1 punkt." }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "halfling",
+    "name": "Halfling",
+    "opis": "Niewielcy i praktyczni, halflnigowie są znani z miłości do wygody, jedzenia i spokojnego życia — ale gdy los ich wzywa, okazują się zadziwiająco odważni.",
+    "szybkosc": 7.5,
+    "rozmiar": "Mały",
+    "bonusy_statystyk": [
+      { "stat": "ZRE", "bonus": 2 }
+    ],
+    "cechy": [
+      { "nazwa": "Szczęście", "opis": "Gdy wyrzucisz 1 na kości ataku, testu cechy lub rzutu obronnego, możesz przerzucić kość i musisz użyć nowego wyniku." },
+      { "nazwa": "Odwaga", "opis": "Masz przewagę na rzuty obronne przeciwko przestraszeniu." },
+      { "nazwa": "Zwinność halflingów", "opis": "Możesz przechodzić przez przestrzeń zajmowaną przez każdą istotę wyższą od ciebie." }
+    ],
+    "podrasy": [
+      {
+        "index": "halfling-lekkonogi",
+        "name": "Halfling Lekkononogi",
+        "opis": "Najliczniejsi halflngowie. Naturalnie skryci i niewidoczni dla większych ras.",
+        "bonusy_statystyk": [ { "stat": "CHA", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Naturalnie skryty", "opis": "Możesz próbować ukryć się za istotą, która jest co najmniej o jeden rozmiar większa od ciebie." }
+        ]
+      },
+      {
+        "index": "halfling-krzepki",
+        "name": "Halfling Krzepki",
+        "opis": "Wytrzymalsi od innych halflingów, bliżej spokrewnieni z krasnoludami.",
+        "bonusy_statystyk": [ { "stat": "KON", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Odporność krzepkich", "opis": "Masz przewagę na rzuty obronne przeciwko truciźnie i odporność na obrażenia od trucizny." }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "gnom",
+    "name": "Gnom",
+    "opis": "Gnomy są energicznymi, wynalazczymi istotami pełnymi entuzjazmu dla życia. Mieszkają w lasach lub pod ziemią i są znani z zamiłowania do nauki i gadżetów.",
+    "szybkosc": 7.5,
+    "rozmiar": "Mały",
+    "bonusy_statystyk": [
+      { "stat": "INT", "bonus": 2 }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle." },
+      { "nazwa": "Chytrość gnomów", "opis": "Masz przewagę na rzuty obronne INT, MĄD i CHA przeciwko magii." }
+    ],
+    "podrasy": [
+      {
+        "index": "gnom-lesny",
+        "name": "Gnom Leśny",
+        "opis": "Małe, nieśmiałe stworzenia z magią iluzji i zdolnością komunikacji ze zwierzętami.",
+        "bonusy_statystyk": [ { "stat": "ZRE", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Naturalna iluzja", "opis": "Znasz sztuczki Minor Illusion (Drobna Iluzja). INT jest modyfikatorem." },
+          { "nazwa": "Mówca zwierząt", "opis": "Możesz komunikować się prostymi pojęciami z małymi i mniejszymi zwierzętami." }
+        ]
+      },
+      {
+        "index": "gnom-skalny",
+        "name": "Gnome Skalny",
+        "opis": "Wynalazcy i mechanicy — fascynaci wszelkich mechanizmów i gadżetów.",
+        "bonusy_statystyk": [ { "stat": "KON", "bonus": 1 } ],
+        "cechy": [
+          { "nazwa": "Biegłość z narzędziami artysana", "opis": "Masz biegłość z narzędziami artysana jednego rodzaju według wyboru." },
+          { "nazwa": "Wiedza o inżynierii", "opis": "Ilekroć wykonujesz test INT (Historia) dot. urządzeń magicznych, alchemii lub technologicznych, możesz dodać dwa razy bonus biegłości." }
+        ]
+      }
+    ]
+  },
+  {
+    "index": "pol-elf",
+    "name": "Półelf",
+    "opis": "Półelfowie łączą elficką gracją z ludzką ambicją. Często czują się wyobcowani — zbyt ludzcy dla elfów, zbyt elficcy dla ludzi. Są naturalnie charyzmatyczni.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "CHA", "bonus": 2 },
+      { "stat": "dowolna1", "bonus": 1, "opis": "Jedna statystyka według wyboru" },
+      { "stat": "dowolna2", "bonus": 1, "opis": "Inna statystyka według wyboru" }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle." },
+      { "nazwa": "Odporność na urok", "opis": "Masz przewagę na rzuty obronne przeciwko oczarowaniu. Magia nie może uśpić cię do snu." },
+      { "nazwa": "Wszechstronność półelfów", "opis": "Zyskujesz biegłość w dwóch umiejętnościach według własnego wyboru." }
+    ],
+    "podrasy": []
+  },
+  {
+    "index": "pol-ork",
+    "name": "Półork",
+    "opis": "Potomkowie ludzi i orków, półorki łączą siłę orków z ludzką zdolnością adaptacji. Często spotykają się z uprzedzeniami, co czyni ich silnymi i wytrwałymi.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "SIŁ", "bonus": 2 },
+      { "stat": "KON", "bonus": 1 }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle." },
+      { "nazwa": "Groźny", "opis": "Masz biegłość w umiejętności Zastraszanie." },
+      { "nazwa": "Nieustępliwość", "opis": "Gdy obrażenia obniżają cię do 0 HP, możesz zamiast tego spaść do 1 HP (raz do następnego długiego odpoczynku)." },
+      { "nazwa": "Brutalne krytyki", "opis": "Gdy wykonujesz krytyczne trafienie w atak bronią, możesz rzucić jedną z kości obrażeń broni dwa razy zamiast raz i dodać oba wyniki." }
+    ],
+    "podrasy": []
+  },
+  {
+    "index": "tiefling",
+    "name": "Tiefling",
+    "opis": "Potomkowie ludzi, których przodkowie zawarli pakt z demonami. Tieflingi mają rogowate czoło, ogon i skórę w odcieniach czerwieni lub fioletu. Noszą piętno piekielnego dziedzictwa.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "INT", "bonus": 1 },
+      { "stat": "CHA", "bonus": 2 }
+    ],
+    "cechy": [
+      { "nazwa": "Ciemnowidztwo", "opis": "W warunkach słabego oświetlenia widzisz na 18 metrów jak przy normalnym świetle." },
+      { "nazwa": "Odporność piekielna", "opis": "Masz odporność na obrażenia od ognia." },
+      { "nazwa": "Dziedzictwo piekielne", "opis": "Znasz sztuczki Tańczące Ogniki. Na 3. poziomie możesz rzucić Kule Hellish Rebuke raz dziennie. Na 5. Ciemność raz dziennie. CHA jest modyfikatorem." }
+    ],
+    "podrasy": []
+  },
+  {
+    "index": "dragonborn",
+    "name": "Smoczoszlachetny (Dragonborn)",
+    "opis": "Humanoidalna rasa z smoczą krwią. Smoczoszlachetni są dumni i honorowi, a ich ciała przypominają smocze — łuski, kształt głowy. Potrafią zionąć jak smok.",
+    "szybkosc": 9,
+    "rozmiar": "Średni",
+    "bonusy_statystyk": [
+      { "stat": "SIŁ", "bonus": 2 },
+      { "stat": "CHA", "bonus": 1 }
+    ],
+    "cechy": [
+      { "nazwa": "Smocze dziedzictwo", "opis": "Wybierasz typ smoka (np. Czerwony=ogień, Niebieski=piorun, Zielony=trucizna). Wybrany typ determinuje Twój oddech i odporność." },
+      { "nazwa": "Oddech Smoka", "opis": "Używasz akcji by zionąć energią. Stożek 4,5m lub linia 9m×1,5m. Obrażenia: 2k6. Przy awansach rośnie do 3k6 (6. poz.) i 4k6 (11. poz.)." },
+      { "nazwa": "Odporność na żywioły", "opis": "Masz odporność na typ obrażeń powiązany z Twoim smokiem-przodkiem." }
+    ],
+    "podrasy": []
+  }
+]

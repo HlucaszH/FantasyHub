@@ -1,0 +1,86 @@
+[
+  {
+    "index": "akolita",
+    "name": "Akolita",
+    "opis": "Spędziłeś lata służąc w świątyni boga lub panteonu bogów. Jesteś pośrednikiem między sferą boską a śmiertelnikami.",
+    "umiejetnosci": ["Wgląd", "Religia"],
+    "jezyki": 2,
+    "ekwipunek": ["Święty symbol (prezent od starszyzny)", "Modlitewnik lub kółko modlitewne", "5 kadzideł", "Szaty ceremonlalne", "Komplet zwykłych ubrań", "15 sz"],
+    "cecha": { "nazwa": "Schronienie Wiernych", "opis": "Jako akolita budzisz szacunek w kręgach religijnych. Możesz korzystać z zasobów świątyni twojego wyznania — leczenia, noclegu. Ty i twoi towarzysze możecie liczyć na bezpłatną pomoc lekarską, jeśli możesz wyznaczyć ekwiwalent materiałowy." }
+  },
+  {
+    "index": "szarlatan",
+    "name": "Szarlatan",
+    "opis": "Całe życie kłamałeś, oszukiwałeś i manipulowałeś. Znasz więcej sposobów fałszerstwa niż większość znaje liter.",
+    "umiejetnosci": ["Oszustwo", "Sleight of Hand"],
+    "narzedzia": ["Zestaw do przebrań", "Narzędzia fałszerza"],
+    "ekwipunek": ["Zestaw do przebrań", "Narzędzia fałszerza", "Korespondencja ze szlachcicem który cię nigdy nie widział", "Komplet dobrego ubrania", "15 sz"],
+    "cecha": { "nazwa": "Fałszywa Tożsamość", "opis": "Stworzyłeś fałszywą tożsamość z dokumentami, ustaloną historią i wyglądem. Możesz podszyć się pod bogatego kupca lub szlachcica, lub ustalić tożsamość handlową." }
+  },
+  {
+    "index": "kryminalista",
+    "name": "Kryminalista",
+    "opis": "Masz doświadczenie w pracy poza prawem — jako złodziej, szpieg, przemytnik lub morderca. Znasz podziemny świat przestępczy.",
+    "umiejetnosci": ["Oszustwo", "Skradanie"],
+    "narzedzia": ["Narzędzia złodzieja", "Jeden typ gier hazardowych"],
+    "ekwipunek": ["Łom", "Komplet ciemnego ubrania z kapturem", "Narzędzia złodzieja", "15 sz"],
+    "cecha": { "nazwa": "Kontakt Kryminalny", "opis": "Masz niezawodny kontakt w podziemiu przestępczym. Wiesz jak skontaktować się z lokalną siatką przestępczą, zlecić sprzedaż skradzionych towarów lub znaleźć narkotyki, trucizny lub inne nielegalne towary." }
+  },
+  {
+    "index": "artysta-ludowy",
+    "name": "Artysta Ludowy",
+    "opis": "Wzrastałeś pośród ludu, ucząc się pieśni i legend od farmerów, pasterzy i rybaków. Rozumiesz zwykłych ludzi jak mało kto.",
+    "umiejetnosci": ["Atletyka", "Wykonanie"],
+    "narzedzia": ["Instrument muzyczny", "Narzędzia artysana"],
+    "ekwipunek": ["Instrument muzyczny", "Prezent od fana (np. listek koniczyny)", "Komplet kostiumów", "15 sz"],
+    "cecha": { "nazwa": "Rustykalny Gościnny", "opis": "Skoro dorastałeś wśród prostych ludzi, łatwo zyskujesz ich sympatię. Zwykli ludzie są chętni pomóc ci znaleźć nocleg i jedzenie. Ci wystarczająco bogaci by pomóc więcej, zrobią to." }
+  },
+  {
+    "index": "szlachcic",
+    "name": "Szlachcic",
+    "opis": "Urodziłeś się w rodzinie szlacheckiej i dorastałeś wśród przywilejów i obowiązków. Twoje imię otwiera wiele drzwi — i zamyka inne.",
+    "umiejetnosci": ["Historia", "Przekonywanie"],
+    "jezyki": 1,
+    "narzedzia": ["Jeden typ gier hazardowych"],
+    "ekwipunek": ["Komplet bogatego ubrania", "Pierścień sygnetowy", "Dokument potwierdzający szlachectwo", "25 sz"],
+    "cecha": { "nazwa": "Pozycja Uprzywilejowana", "opis": "Twoje szlachectwo zapewnia przychylność wielu — zwykli ludzie są gotowi wyświadczyć ci przysługi, a szlachta przyjmuje cię jak równego. Możesz spodziewać się bezpłatnych noclegów w fortecy sojuszniczego szlachcica." }
+  },
+  {
+    "index": "medrzec",
+    "name": "Mędrzec",
+    "opis": "Spędziłeś lata pochłonięty w studiach nad odkryciami starożytnych cywilizacji, magii i historii. Twoja wiedza jest nieoceniona.",
+    "umiejetnosci": ["Arcana", "Historia"],
+    "jezyki": 2,
+    "ekwipunek": ["Butelka atramentu czarnego", "Pióro", "Mały nóż", "List od kolegi pytającego o teorię", "Komplet zwykłego ubrania", "10 sz"],
+    "cecha": { "nazwa": "Badacz", "opis": "Gdy szukasz informacji, zawsze wiesz gdzie znaleźć odpowiedź — biblioteki, uczone towarzystwa, sklepy alchemiczne lub skrypty. Jeśli nie możesz osobiście udzielić odpowiedzi, wiesz do kogo się zwrócić." }
+  },
+  {
+    "index": "zolnierz",
+    "name": "Żołnierz",
+    "opis": "Całe dorosłe życie spędziłeś w służbie wojskowej — jako piechur, łucznik, kawalerzysta lub oficer. Znasz dyscyplinę walki i cenę krwi.",
+    "umiejetnosci": ["Atletyka", "Zastraszanie"],
+    "narzedzia": ["Jeden typ gier hazardowych", "Zestaw do gry w kości"],
+    "ekwipunek": ["Insygnia rangi wojskowej", "Trofeum z zabitego wroga (np. sztylet)", "Kości do gry lub talia kart", "Komplet zwykłego ubrania", "10 sz"],
+    "cecha": { "nazwa": "Stopień Wojskowy", "opis": "Masz stopień wojskowy z poprzedniej kariery. Żołnierze twojej poprzedniej organizacji traktują cię jako dowódcę. Możesz liczyć na kwaterę w twierdzach, koszarach i miejscach, gdzie stacjonują żołnierze." }
+  },
+  {
+    "index": "wedrowiec",
+    "name": "Wędrowiec (Outlander)",
+    "opis": "Dorastałeś w dziczy, z dala od cywilizacji. Twoim domem były lasy, góry lub stepy — a nie kamienne mury i ulice miast.",
+    "umiejetnosci": ["Atletyka", "Przetrwanie"],
+    "jezyki": 1,
+    "narzedzia": ["Instrument muzyczny"],
+    "ekwipunek": ["Kij bojowy", "Pułapka na zwierzynę", "Trofeum z zabitego zwierzęcia", "Komplet ubrań podróżnika", "10 sz"],
+    "cecha": { "nazwa": "Wędrowiec", "opis": "Masz doskonałą pamięć terenu, osad i geografii. Możesz zawsze znaleźć jedzenie i wodę w dziczy. Twoja drużyna może podróżować w normalnym tempie bez karya do nawigacji." }
+  },
+  {
+    "index": "czlonek-gildii",
+    "name": "Wychowanek Gildii",
+    "opis": "Byłeś członkiem rzemieślniczej gildii — nauczyłeś się zawodu i zbudowałeś sieć kontaktów w świecie handlu i rzemiosła.",
+    "umiejetnosci": ["Historia", "Przekonywanie"],
+    "jezyki": 1,
+    "narzedzia": ["Narzędzia artysana (jeden rodzaj)"],
+    "ekwipunek": ["Narzędzia artysana (jeden rodzaj)", "List polecający od gildii", "Komplet ubrań rzemieślnika", "15 sz"],
+    "cecha": { "nazwa": "Członkostwo w Gildii", "opis": "Jako członek gildii możesz liczyć na wsparcie bractwa — nocleg i wyżywienie u innych członków. Gildia może interweniować prawnie w twoim imieniu. W zamian oczekuje się wpłacania składek i pomocy innym." }
+  }
+]

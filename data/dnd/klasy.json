@@ -1,0 +1,287 @@
+[
+  {
+    "index": "barbarzynca",
+    "name": "Barbarzyńca",
+    "ikona": "🪓",
+    "opis": "Dziki wojownik z dzikich krain. Barbarzyńcy czerpią siłę z prymitywnej pasji, wchodząc w trans bitewny (Szał) by walczyć z nieprawdopodobną siłą i wytrzymałością.",
+    "koscHP": 12,
+    "glowna_cecha": "Siła",
+    "proficjencje_zbroje": "Lekka zbroja, Średnia zbroja, Tarcze",
+    "proficjencje_bron": "Prosta broń, Broń wojskowa",
+    "rzuty_obronne": "Siła, Kondycja",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Atletyka","Percepcja Zwierząt","Zastraszanie","Natura","Percepcja","Przetrwanie"] },
+    "cechy_startowe": [
+      { "nazwa": "Szał (Rage)", "opis": "Jako akcja bonusowa wchodzisz w szał (trwa 1 minutę). W szale: przewaga na SIŁ testy i rzuty obronne, +2 obrażeń mieczem (rośnie z poziomem), odporność na obrażenia fizyczne (obcinające, kłute, miażdżące). Możesz użyć 2 razy na odpoczynek (rośnie z poziomem)." },
+      { "nazwa": "Obrona bez zbroi", "opis": "Gdy nie masz zbroi, Twoja Klasa Pancerza wynosi 10 + modyfikator ZRE + modyfikator KON. Możesz nadal używać tarczy." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Topór wojenny + ręczny topór (x2)", "Broń prosta do walki wręcz (x2)"] },
+      { "kategoria": "Dodatkowe", "stale": ["4 × rzutka", "Plecak Podróżnika lub Plecak Poszukiwacza Przygód"] }
+    ],
+    "zapis_rzutow_obronnych": ["Siła", "Kondycja"],
+    "magik": false
+  },
+  {
+    "index": "bard",
+    "name": "Bard",
+    "ikona": "🎶",
+    "opis": "Mistrz pieśni, słów i magii. Bardowie czerpują magię z muzyki i opowieści. Są wszechstronnymi bohaterami — mogą leczyć, rzucać zaklęcia i wspierać sojuszników Inspiracją Bardów.",
+    "koscHP": 8,
+    "glowna_cecha": "Charyzma",
+    "proficjencje_zbroje": "Lekka zbroja",
+    "proficjencje_bron": "Prosta broń, Długi miecz, Rapier, Szpada",
+    "rzuty_obronne": "Zręczność, Charyzma",
+    "umiejetnosci": { "ilosc": 3, "lista": ["dowolne 3 z listy wszystkich umiejętności"] },
+    "cechy_startowe": [
+      { "nazwa": "Rzucanie zaklęć", "opis": "Rzucasz zaklęcia korzystając z Charyzmy. Na 1. poziomie znasz 2 sztuczki i 4 zaklęcia z listy barda." },
+      { "nazwa": "Inspiracja Bardów", "opis": "Akcją bonusową inspirujesz inną istotę. Cel może dodać kość Inspiracji (k6, rośnie z poziomem) do jednego rzutu kością w ciągu 10 minut." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Rapier", "Długi miecz", "Dowolna prosta broń"] },
+      { "kategoria": "Ekwipunek", "opcje": ["Plecak Dyplomaty", "Plecak Artysty Ludowego"] },
+      { "kategoria": "Dodatkowe", "stale": ["Instrument muzyczny", "Skórzana zbroja", "Sztylet"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Bard"
+  },
+  {
+    "index": "kleryk",
+    "name": "Kleryk",
+    "ikona": "✝️",
+    "opis": "Pośrednik między śmiertelnikami a bóstwami. Klerykowie czerpią świętą moc od bogów i kanalują ją przez wiarę. Są potężnymi lecznikami i bojownikami wiary.",
+    "koscHP": 8,
+    "glowna_cecha": "Mądrość",
+    "proficjencje_zbroje": "Lekka zbroja, Średnia zbroja, Tarcze",
+    "proficjencje_bron": "Prosta broń",
+    "rzuty_obronne": "Mądrość, Charyzma",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Historia","Wgląd","Medycyna","Przekonywanie","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Rzucanie zaklęć", "opis": "Rzucasz zaklęcia korzystając z Mądrości. Masz dostęp do wszystkich zaklęć klerykalnych i codziennie przygotowujesz ich pulę." },
+      { "nazwa": "Kanał Boskości (Channel Divinity)", "opis": "Kanalizujesz boskią energię. Na 1. poziomie znasz 'Odwrócenie Nieumarłych'. Domeny klerykalne dodają dodatkowe efekty." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Buzdygan", "Młot bojowy (jeśli biegłość)"] },
+      { "kategoria": "Zbroja", "opcje": ["Łuski", "Skórzana zbroja", "Kolczuga (jeśli biegłość)"] },
+      { "kategoria": "Dodatkowe", "opcje": ["Lekka kusza + 20 bełtów", "Dowolna prosta broń"] },
+      { "kategoria": "Stałe", "stale": ["Ksiądz (Priest's Pack) lub Plecak Poszukiwacza Przygód", "Tarcza", "Święty symbol"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Kleryk"
+  },
+  {
+    "index": "druid",
+    "name": "Druid",
+    "ikona": "🌿",
+    "opis": "Kapłan natury, czerpiący moc z sił przyrody. Druidzi mogą przybrać postać zwierząt (Dzika Forma) i rzucają zaklęcia związane z naturą, pogodą i żywiołami.",
+    "koscHP": 8,
+    "glowna_cecha": "Mądrość",
+    "proficjencje_zbroje": "Lekka zbroja, Średnia zbroja, Tarcze (druidzi nie noszą zbroi z metalu)",
+    "proficjencje_bron": "Pałka, Sztylet, Ościep, Maczuga, Lanca, Długi nóż, Kij bojowy, Łuk krótki, Włócznia",
+    "rzuty_obronne": "Inteligencja, Mądrość",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Zwierzętoznawstwo","Atletyka","Historia","Wgląd","Medycyna","Natura","Percepcja","Przetrwanie","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Druidzki", "opis": "Możesz mówić Druidzkim — tajnym językiem druidów, przekazywanym tylko wtajemniczonym. Pozwala zostawiać ukryte wiadomości w naturze." },
+      { "nazwa": "Rzucanie zaklęć", "opis": "Rzucasz zaklęcia korzystając z Mądrości. Codziennie przygotowujesz pulę zaklęć druidzkich." },
+      { "nazwa": "Dzika Forma (Wild Shape)", "opis": "Na 2. poziomie możesz przemienić się w bestię (CR zależy od poziomu). Używasz jej Siły, Zręczności i Kondycji, ale zachowujesz własną INT, MĄD, CHA. Raz na odpoczynek krótki." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Tarcza", "opcje": ["Tarcza drewniana", "Dowolna prosta broń"] },
+      { "kategoria": "Broń", "opcje": ["Sierp", "Dowolna prosta broń do walki wręcz"] },
+      { "kategoria": "Stałe", "stale": ["Skórzana zbroja", "Plecak Poszukiwacza Przygód", "Druidzki focus (mistletoe, totem, kij drewniany)"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Druid"
+  },
+  {
+    "index": "wojownik",
+    "name": "Wojownik",
+    "ikona": "⚔️",
+    "opis": "Mistrz walki — zna techniki walki z każdą bronią i w każdej zbroi. Wojownicy mają dostęp do specjalnych ataków (Manewry), rzucają zaklęcia (Rycerz Elficki) lub atakują wielokrotnie.",
+    "koscHP": 10,
+    "glowna_cecha": "Siła lub Zręczność",
+    "proficjencje_zbroje": "Wszystkie zbroje, Tarcze",
+    "proficjencje_bron": "Prosta broń, Broń wojskowa",
+    "rzuty_obronne": "Siła, Kondycja",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Akrobatyka","Atletyka","Historia","Wgląd","Zastraszanie","Percepcja","Przekonywanie","Przetrwanie"] },
+    "cechy_startowe": [
+      { "nazwa": "Styl Walki (Fighting Style)", "opis": "Wybierasz specjalizację: Ochrona (tarcza), Dwuręczna (duże bronie), Obrona (+1 AC w zbroi), Pojedynek (+2 obrażeń jednoręczną), Strzelanie (+2 obrażeń z łuku), Dwie bronie (dodaj modyfikator do drugiego ataku)." },
+      { "nazwa": "Drugi Oddech (Second Wind)", "opis": "Akcją bonusową odzyskujesz 1k10 + poziom HP. Raz na odpoczynek krótki lub długi." },
+      { "nazwa": "Seria Ataków (Action Surge)", "opis": "Na 2. poziomie: raz na odpoczynek krótki możesz wykonać dodatkową Akcję w swojej turze." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Zbroja", "opcje": ["Kolczuga", "Skórzana zbroja + Długi łuk + 20 strzał"] },
+      { "kategoria": "Broń", "opcje": ["Broń wojskowa + tarcza", "Dwie bronie wojskowe"] },
+      { "kategoria": "Dodatkowe", "opcje": ["Lekka kusza + 20 bełtów", "2 × ościep"] },
+      { "kategoria": "Stałe", "stale": ["Plecak Poszukiwacza Przygód lub Plecak Wojownika"] }
+    ],
+    "magik": false
+  },
+  {
+    "index": "mnich",
+    "name": "Mnich",
+    "ikona": "👊",
+    "opis": "Mistrz walki wręcz, kanalizujący mistyczną energię Ki. Mnisi mogą uderzać z prędkością błyskawicy, chodzić po ścianach i stawać się odporni na magię.",
+    "koscHP": 8,
+    "glowna_cecha": "Zręczność i Mądrość",
+    "proficjencje_zbroje": "Brak (brak zbroi jest ZALETĄ — patrz Obrona bez Zbroi)",
+    "proficjencje_bron": "Prosta broń, Krótkie miecze",
+    "rzuty_obronne": "Siła, Zręczność",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Akrobatyka","Atletyka","Historia","Wgląd","Religia","Skradanie"] },
+    "cechy_startowe": [
+      { "nazwa": "Obrona bez Zbroi", "opis": "Bez zbroi: AC = 10 + ZRE + MĄD. Bez zbroi i tarczy możesz walczyć potężniej." },
+      { "nazwa": "Bojowe Sztuki (Martial Arts)", "opis": "Możesz używać ZRE zamiast SIŁ do ataków pięściami i bronią mnicha. Obrażenia pięści: k4 (rośnie z poziomem). Po ataku bronią możesz uderzyć pięścią jako akcja bonusowa." },
+      { "nazwa": "Ki", "opis": "Od 2. poz.: masz pulę punktów Ki = poziom. Wydajesz je na: Szybki Atak (dwa ataki jako akcja bonusowa), Cierpliwa Obrona (Unik jako akcja bonusowa), Krok Wiatru (Skok i Sprinit za akcję bonusową)." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Krótki miecz", "Dowolna prosta broń"] },
+      { "kategoria": "Stałe", "stale": ["Plecak Poszukiwacza Przygód lub Plecak Klasztorny", "10 × rzutka"] }
+    ],
+    "magik": false
+  },
+  {
+    "index": "paladin",
+    "name": "Paladyn",
+    "ikona": "🛡️",
+    "opis": "Święty wojownik, który złożył uroczystą przysięgę (Oath). Paladyni łączą ciężką zbroję i miecz ze świętą magią. Mogą leczyć, chronić sojuszników i niszczyć zło Boskim Uderzeniem.",
+    "koscHP": 10,
+    "glowna_cecha": "Siła i Charyzma",
+    "proficjencje_zbroje": "Wszystkie zbroje, Tarcze",
+    "proficjencje_bron": "Prosta broń, Broń wojskowa",
+    "rzuty_obronne": "Mądrość, Charyzma",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Atletyka","Wgląd","Zastraszanie","Medycyna","Przekonywanie","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Boskie Zdrowie (Divine Sense)", "opis": "Percepcja obecności silnego zła/dobra. Akcją — wyczuwasz na 18m obecność niebiańskich, piekielnych, nieumarłych istot. Raz na odpoczynek długi + CHA modyfikator razy dziennie." },
+      { "nazwa": "Nałożenie Rąk (Lay on Hands)", "opis": "Masz pulę HP równą 5 × poziom. Akcją oddajesz dowolną ilość tych HP, by uleczyć dotknięta istotę (lub wydać 5 HP by wyleczyć chorobę/truciznę)." },
+      { "nazwa": "Boskie Uderzenie (Divine Smite)", "opis": "Od 2. poz.: po trafieniu bronią możesz wydać slot zaklęcia, zadając +2k8 obrażeń od promienistości (lub +3k8 vs nieumarli/demony). Za każdy level powyżej 1. slotu +1k8." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Broń wojskowa + tarcza", "Dwie bronie wojskowe"] },
+      { "kategoria": "Dodatkowe", "opcje": ["5 × ościep", "Dowolna prosta broń do walki wręcz"] },
+      { "kategoria": "Stałe", "stale": ["Łańcuchowa kolczuga", "Święty symbol", "Plecak Kapłana lub Plecak Poszukiwacza Przygód"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Paladyn"
+  },
+  {
+    "index": "zwiadowca",
+    "name": "Zwiadowca (Ranger)",
+    "ikona": "🏹",
+    "opis": "Łowca i tropiciel, w domu w dziczy. Zwiadowcy specjalizują się w walce z określonymi typami wrogów (Ulubiony Wróg) i poruszaniu się przez dzikie tereny. Mogą rzucać zaklęcia natury.",
+    "koscHP": 10,
+    "glowna_cecha": "Zręczność i Mądrość",
+    "proficjencje_zbroje": "Lekka zbroja, Średnia zbroja, Tarcze",
+    "proficjencje_bron": "Prosta broń, Broń wojskowa",
+    "rzuty_obronne": "Siła, Zręczność",
+    "umiejetnosci": { "ilosc": 3, "lista": ["Atletyka","Wgląd","Śledztwo","Natura","Percepcja","Skradanie","Przetrwanie","Zwierzętoznawstwo"] },
+    "cechy_startowe": [
+      { "nazwa": "Ulubiony Wróg (Favored Enemy)", "opis": "Wybierasz typ wroga (np. bestie, humanoidzi, nieumarli). Masz przewagę na Wiedze i Śledzenie dotyczące tego wroga. Uczysz się jednego języka używanego przez wybrany typ." },
+      { "nazwa": "Naturalny Badacz (Natural Explorer)", "opis": "Wybierasz typ terenu (las, tundra, góry itp.). W tym terenie: podwoiony bonus biegłości na INT/MĄD, nie można cię zgubić, zawsze masz pożywienie i wodę, szybciej śledzisz." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Zbroja", "opcje": ["Łuski", "Skórzana zbroja"] },
+      { "kategoria": "Broń", "opcje": ["Dwa krótkie miecze", "Dwie proste bronie do walki wręcz"] },
+      { "kategoria": "Stałe", "stale": ["Plecak Poszukiwacza Przygód", "Długi łuk + 20 strzał"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Zwiadowca"
+  },
+  {
+    "index": "łotrzyk",
+    "name": "Łotrzyk (Rogue)",
+    "ikona": "🗡️",
+    "opis": "Mistrz skradania i ciosów z zaskoczenia. Łotrzykowie atakują znienacka (Atak Podstępny), unikają zaklęć i potrafią robić wszystko — od włamań po trucizny.",
+    "koscHP": 8,
+    "glowna_cecha": "Zręczność",
+    "proficjencje_zbroje": "Lekka zbroja",
+    "proficjencje_bron": "Prosta broń, Ręczne kusze, Długie noże, Rapier, Szpada, Krótki miecz",
+    "rzuty_obronne": "Zręczność, Inteligencja",
+    "umiejetnosci": { "ilosc": 4, "lista": ["Akrobatyka","Atletyka","Oszustwo","Śledztwo","Wgląd","Zastraszanie","Percepcja","Wykonanie","Przekonywanie","Sleight of Hand","Skradanie"] },
+    "cechy_startowe": [
+      { "nazwa": "Wiedza (Expertise)", "opis": "Wybierasz 2 umiejętności (z biegłości) — masz podwójny bonus biegłości w tych umiejętnościach." },
+      { "nazwa": "Atak Podstępny (Sneak Attack)", "opis": "Raz na turę gdy trafiasz bronią finezyjną lub dystansową przeciwnika w pobliżu sojusznika (lub gdy masz przewagę), zadajesz +1k6 obrażeń. Rośnie co 2 poziomy." },
+      { "nazwa": "Złodziejski Slang (Thieves' Cant)", "opis": "Znasz sekretny język złodziei — możesz zostawiać i rozumieć ukryte wiadomości." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Rapier", "Krótki miecz"] },
+      { "kategoria": "Dystans", "opcje": ["Ręczna kusza + 20 bełtów", "Krótki łuk + 20 strzał"] },
+      { "kategoria": "Ekwipunek", "opcje": ["Plecak Włamywacza", "Plecak Poszukiwacza Przygód", "Plecak Dyplomaty"] },
+      { "kategoria": "Stałe", "stale": ["Skórzana zbroja", "2 × sztylet", "Narzędzia złodzieja"] }
+    ],
+    "magik": false
+  },
+  {
+    "index": "czarownik",
+    "name": "Czarownik (Sorcerer)",
+    "ikona": "💫",
+    "opis": "Magia płynąca z krwi. Czarownicy rodzą się z mocą magiczną — wynikającą z smoczego dziedzictwa, boskiego promienia lub innego źródła. Manipulują magią przez Punkty Czarowania.",
+    "koscHP": 6,
+    "glowna_cecha": "Charyzma",
+    "proficjencje_zbroje": "Brak",
+    "proficjencje_bron": "Sztylet, Rzutki, Proca, Kij bojowy, Lekka kusza",
+    "rzuty_obronne": "Kondycja, Charyzma",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Zwierzętoznawstwo","Oszustwo","Historia","Śledztwo","Natura","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Rzucanie zaklęć", "opis": "Rzucasz zaklęcia używając CHA. Na 1. poziomie znasz 4 zaklęcia i 2 sztuczki." },
+      { "nazwa": "Metamagic (od 3. poz.)", "opis": "Wydając Punkty Czarowania możesz modyfikować zaklęcia: Rozszerzyć czas, Podwoić zasięg, Uczynić Subtelnym (bez komponentów), Wzmocnić (przerzut 1 na obrażenia) i inne." },
+      { "nazwa": "Źródło Czarowania (Sorcerous Origin)", "opis": "Wybierasz źródło mocy (Smocze dziedzictwo, Dziki Mag, Boski Duch itp.). Modyfikuje zaklęcia i daje dodatkowe cechy." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Lekka kusza + 20 bełtów", "Dowolna prosta broń"] },
+      { "kategoria": "Fokus", "opcje": ["Składnik do czarowania", "Ogniskowanie arkane"] },
+      { "kategoria": "Ekwipunek", "opcje": ["Plecak Badacza Lochów", "Plecak Poszukiwacza Przygód"] },
+      { "kategoria": "Stałe", "stale": ["2 × sztylet"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Czarownik"
+  },
+  {
+    "index": "czarnoksiężnik",
+    "name": "Czarnoksiężnik (Warlock)",
+    "ikona": "🌑",
+    "opis": "Moc zdobyta paktem z potężną istotą (Patron) — demonem, bogiem, Wielkim Starym lub elfickim królem. Czarnoksiężnicy mają ograniczone sloty, ale odnawiają je po każdym odpoczynku krótkim.",
+    "koscHP": 8,
+    "glowna_cecha": "Charyzma",
+    "proficjencje_zbroje": "Lekka zbroja",
+    "proficjencje_bron": "Prosta broń",
+    "rzuty_obronne": "Mądrość, Charyzma",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Zwierzętoznawstwo","Oszustwo","Historia","Zastraszanie","Śledztwo","Natura","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Pakt Mroku (Otherworldly Patron)", "opis": "Wybierasz Patrona (Archfiend, Great Old One, Celestial, Fey itp.). Patron daje dostęp do specjalnych rozszerzeń listy zaklęć i unikalnych cech." },
+      { "nazwa": "Magia Paktu (Pact Magic)", "opis": "Masz 1-2 sloty zaklęć (zależnie od poziomu), ale odnawiane po odpoczynku krótkim. Wszystkie zaklęcia rzucane na najwyższym dostępnym poziomie." },
+      { "nazwa": "Eldritch Blast (sztuczka)", "opis": "Najpotężniejsza sztuczka w grze: 1k10 obrażeń magicznych na 27 metrów. Ulepszenia (Invocations) mogą dodać spychanie, spowalnianie, leczenie." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Lekka kusza + 20 bełtów", "Dowolna prosta broń"] },
+      { "kategoria": "Fokus", "opcje": ["Składnik do czarowania", "Ogniskowanie arkane"] },
+      { "kategoria": "Ekwipunek", "opcje": ["Plecak Badacza Lochów", "Plecak Dyplomaty"] },
+      { "kategoria": "Stałe", "stale": ["Skórzana zbroja", "Dowolna prosta broń", "2 × sztylet"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Czarnoksiężnik"
+  },
+  {
+    "index": "mag",
+    "name": "Mag (Wizard)",
+    "ikona": "📚",
+    "opis": "Naukowiec magii — uczy się zaklęć poprzez naukę i praktykę, zapisując je w Księdze Zaklęć. Mają dostęp do największej liczby zaklęć spośród wszystkich klas.",
+    "koscHP": 6,
+    "glowna_cecha": "Inteligencja",
+    "proficjencje_zbroje": "Brak",
+    "proficjencje_bron": "Sztylet, Rzutki, Proca, Kij bojowy, Lekka kusza",
+    "rzuty_obronne": "Inteligencja, Mądrość",
+    "umiejetnosci": { "ilosc": 2, "lista": ["Zwierzętoznawstwo","Historia","Śledztwo","Medycyna","Natura","Religia"] },
+    "cechy_startowe": [
+      { "nazwa": "Rzucanie Zaklęć (Arcane Recovery)", "opis": "Raz na dzień po odpoczynku krótkim odnawiasz sloty zaklęć, których suma poziomów ≤ połowa poziomu maga (zaokr. w górę)." },
+      { "nazwa": "Księga Zaklęć (Spellbook)", "opis": "Posiadasz Księgę z 6 zaklęciami 1. poziomu. Na każdym nowym poziomie dodajesz 2 zaklęcia. Możesz skopiować zaklęcia ze zwojów i innych ksiąg za 50 sz i 2h nauki za poziom." },
+      { "nazwa": "Tradycja Arkana (Arcane Tradition)", "opis": "Na 2. poziomie wybierasz szkołę magii (Ewokacja, Iluzja, Nekromancja, Przeistoczenie itp.). Daje specjalizację i unikalne cechy." }
+    ],
+    "ekwipunek_startowy": [
+      { "kategoria": "Broń", "opcje": ["Kij bojowy", "Sztylet"] },
+      { "kategoria": "Fokus", "opcje": ["Składnik do czarowania", "Ogniskowanie arkane"] },
+      { "kategoria": "Ekwipunek", "opcje": ["Plecak Naukowca", "Plecak Poszukiwacza Przygód"] },
+      { "kategoria": "Stałe", "stale": ["Księga Zaklęć"] }
+    ],
+    "magik": true,
+    "lista_zaklec": "Mag"
+  }
+]
