@@ -40,7 +40,7 @@
 .enc-card p     { color: var(--ink-muted); font-size: 0.95rem; }
 
 .enc-container {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 1.5rem 4rem;
   position: relative;
@@ -58,9 +58,12 @@
 
 .enc-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
 }
+@media (max-width: 1100px) { .enc-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 750px)  { .enc-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .enc-grid { grid-template-columns: 1fr; } }
 
 .entry-card {
   border: 2px solid var(--border);
